@@ -1,5 +1,6 @@
 from textSummarizer.entity import (
-    DataIngestionConfig, DataValidationConfig
+    DataIngestionConfig, DataValidationConfig, 
+    DataTransformationConfig
 )
 
 from textSummarizer.constants import *
@@ -42,5 +43,19 @@ class ConfigurationManager:
             root_path=Path(config['root_dir']),
             STATUS_FILE=config['STATUS_FILE'],
             ALL_REQUIRED_DATA=config['ALL_REQUIRED_DATA']
+        
+        )
+        
+        
+    def get_data_transformation_config(self) -> DataTransformationConfig:
+        config = self.config['data_transformation']
+        
+        create_directories([Path(config['root_dir'])]) 
+        
+        
+        return DataTransformationConfig(
+            root_dir=Path(config['root_dir']),
+            data_path=Path(config['data_path']),
+            tokenizer_name=Path(config['tokenizer_name'])
         
         )
