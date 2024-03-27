@@ -1,0 +1,96 @@
+{
+  "build": "h63175ca_1_cpu",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "libarrow 15.0.2 h878f99b_1_cpu",
+    "libarrow-acero 15.0.2 h63175ca_1_cpu",
+    "libparquet 15.0.2 h7ec3a38_1_cpu",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "extracted_package_dir": "C:\\Users\\harry\\.conda\\pkgs\\libarrow-dataset-15.0.2-h63175ca_1_cpu",
+  "files": [
+    "Library/bin/arrow_dataset.dll",
+    "Library/lib/arrow_dataset.lib",
+    "Library/lib/cmake/ArrowDataset/ArrowDatasetConfig.cmake",
+    "Library/lib/cmake/ArrowDataset/ArrowDatasetConfigVersion.cmake",
+    "Library/lib/cmake/ArrowDataset/ArrowDatasetTargets-release.cmake",
+    "Library/lib/cmake/ArrowDataset/ArrowDatasetTargets.cmake",
+    "Library/lib/pkgconfig/arrow-dataset.pc"
+  ],
+  "fn": "libarrow-dataset-15.0.2-h63175ca_1_cpu.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\harry\\.conda\\pkgs\\libarrow-dataset-15.0.2-h63175ca_1_cpu",
+    "type": 1
+  },
+  "md5": "e794000b8e1137d5cacbeba3811ecf3d",
+  "name": "libarrow-dataset",
+  "package_tarball_full_path": "C:\\Users\\harry\\.conda\\pkgs\\libarrow-dataset-15.0.2-h63175ca_1_cpu.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/arrow_dataset.dll",
+        "path_type": "hardlink",
+        "sha256": "229dced4790fdd0c15429a73e78caf9a13fbe45ad42811576c6ce334990ba0ed",
+        "sha256_in_prefix": "229dced4790fdd0c15429a73e78caf9a13fbe45ad42811576c6ce334990ba0ed",
+        "size_in_bytes": 1310208
+      },
+      {
+        "_path": "Library/lib/arrow_dataset.lib",
+        "path_type": "hardlink",
+        "sha256": "9cdfb6dd9e494e6a547c2e0cb4f3d4f3c0da01ac410db9a743f51fadf22c6ce9",
+        "sha256_in_prefix": "9cdfb6dd9e494e6a547c2e0cb4f3d4f3c0da01ac410db9a743f51fadf22c6ce9",
+        "size_in_bytes": 412084
+      },
+      {
+        "_path": "Library/lib/cmake/ArrowDataset/ArrowDatasetConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "c2a3576557bb4853689ba8146f6806e1e38c13df5e236a417525df64266a8488",
+        "sha256_in_prefix": "c2a3576557bb4853689ba8146f6806e1e38c13df5e236a417525df64266a8488",
+        "size_in_bytes": 2451
+      },
+      {
+        "_path": "Library/lib/cmake/ArrowDataset/ArrowDatasetConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "dd240b25be31bb47d233b13e8a03df514af6cb3de909728718d7c2c8c57ea1fa",
+        "sha256_in_prefix": "dd240b25be31bb47d233b13e8a03df514af6cb3de909728718d7c2c8c57ea1fa",
+        "size_in_bytes": 2830
+      },
+      {
+        "_path": "Library/lib/cmake/ArrowDataset/ArrowDatasetTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "c3e2519ebca4447a514d2653cbba97722d1b3a3caf6979f5098303104f130eee",
+        "sha256_in_prefix": "c3e2519ebca4447a514d2653cbba97722d1b3a3caf6979f5098303104f130eee",
+        "size_in_bytes": 1034
+      },
+      {
+        "_path": "Library/lib/cmake/ArrowDataset/ArrowDatasetTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "e53386fa0512ffe7d566aea81a080644f30565a25d66465f450abe0113f70e14",
+        "sha256_in_prefix": "e53386fa0512ffe7d566aea81a080644f30565a25d66465f450abe0113f70e14",
+        "size_in_bytes": 4396
+      },
+      {
+        "_path": "Library/lib/pkgconfig/arrow-dataset.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:/bld/apache-arrow_1711176409867/_h_env",
+        "sha256": "a69f08c1471f97ab6cc28863f26ef32f4505738d4704b5bd1d1744daa98284de",
+        "sha256_in_prefix": "c25a693fc61ab89c3c50f357dbd82c6e8a85763a6af450ddc5ff3f17d550d14e",
+        "size_in_bytes": 1190
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "68c8d5e01b3d404bd7c9b12d66cff1b03f8353c76d09c99e2a2f8ceecfcc094e",
+  "size": 431252,
+  "subdir": "win-64",
+  "timestamp": 1711179443000,
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libarrow-dataset-15.0.2-h63175ca_1_cpu.conda",
+  "version": "15.0.2"
+}

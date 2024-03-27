@@ -1,0 +1,100 @@
+{
+  "build": "hf6fcf4e_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "aws-c-common >=0.9.14,<0.9.15.0a0",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "extracted_package_dir": "C:\\Users\\harry\\.conda\\pkgs\\aws-c-compression-0.2.18-hf6fcf4e_2",
+  "files": [
+    "Library/bin/aws-c-compression.dll",
+    "Library/include/aws/compression/compression.h",
+    "Library/include/aws/compression/exports.h",
+    "Library/include/aws/compression/huffman.h",
+    "Library/lib/aws-c-compression.lib",
+    "Library/lib/aws-c-compression/cmake/aws-c-compression-config.cmake",
+    "Library/lib/aws-c-compression/cmake/shared/aws-c-compression-targets-release.cmake",
+    "Library/lib/aws-c-compression/cmake/shared/aws-c-compression-targets.cmake"
+  ],
+  "fn": "aws-c-compression-0.2.18-hf6fcf4e_2.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\harry\\.conda\\pkgs\\aws-c-compression-0.2.18-hf6fcf4e_2",
+    "type": 1
+  },
+  "md5": "6efdf7af73d7043a00394a2f1b039650",
+  "name": "aws-c-compression",
+  "package_tarball_full_path": "C:\\Users\\harry\\.conda\\pkgs\\aws-c-compression-0.2.18-hf6fcf4e_2.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/aws-c-compression.dll",
+        "path_type": "hardlink",
+        "sha256": "d0e0fb858ec0d9d86b54ad63fb915307741570578895d27e02aabb8dd41e6cad",
+        "sha256_in_prefix": "d0e0fb858ec0d9d86b54ad63fb915307741570578895d27e02aabb8dd41e6cad",
+        "size_in_bytes": 15360
+      },
+      {
+        "_path": "Library/include/aws/compression/compression.h",
+        "path_type": "hardlink",
+        "sha256": "4a7e0eba0e35676fbacfb6c1d08ada087a21ec4b3a4245a75c95b72ad23e8aa3",
+        "sha256_in_prefix": "4a7e0eba0e35676fbacfb6c1d08ada087a21ec4b3a4245a75c95b72ad23e8aa3",
+        "size_in_bytes": 1128
+      },
+      {
+        "_path": "Library/include/aws/compression/exports.h",
+        "path_type": "hardlink",
+        "sha256": "8851c4f63053a1d90b17eb29ea4bb477cdfcb315090d06933b18e9710b85dba8",
+        "sha256_in_prefix": "8851c4f63053a1d90b17eb29ea4bb477cdfcb315090d06933b18e9710b85dba8",
+        "size_in_bytes": 1120
+      },
+      {
+        "_path": "Library/include/aws/compression/huffman.h",
+        "path_type": "hardlink",
+        "sha256": "a0ae03aa45aa8049d704105d6ccaf52342e94f279c04b5616a9416e5a408c43e",
+        "sha256_in_prefix": "a0ae03aa45aa8049d704105d6ccaf52342e94f279c04b5616a9416e5a408c43e",
+        "size_in_bytes": 4752
+      },
+      {
+        "_path": "Library/lib/aws-c-compression.lib",
+        "path_type": "hardlink",
+        "sha256": "8682579e7bef776ed7593c172ab7efe3dc10383f643705ec1eaf80fb37bcd20c",
+        "sha256_in_prefix": "8682579e7bef776ed7593c172ab7efe3dc10383f643705ec1eaf80fb37bcd20c",
+        "size_in_bytes": 4906
+      },
+      {
+        "_path": "Library/lib/aws-c-compression/cmake/aws-c-compression-config.cmake",
+        "path_type": "hardlink",
+        "sha256": "9c3028bb8d1a556c5d11fe4e5cb969c2bc73fdbf3fb02a96cc5fb0de69a3c503",
+        "sha256_in_prefix": "9c3028bb8d1a556c5d11fe4e5cb969c2bc73fdbf3fb02a96cc5fb0de69a3c503",
+        "size_in_bytes": 598
+      },
+      {
+        "_path": "Library/lib/aws-c-compression/cmake/shared/aws-c-compression-targets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "0630dacb582a437764c250340b04d4754e172188a9e88911cd0c228dabcf8dc6",
+        "sha256_in_prefix": "0630dacb582a437764c250340b04d4754e172188a9e88911cd0c228dabcf8dc6",
+        "size_in_bytes": 990
+      },
+      {
+        "_path": "Library/lib/aws-c-compression/cmake/shared/aws-c-compression-targets.cmake",
+        "path_type": "hardlink",
+        "sha256": "35dae5c47f2186d45080b7422aee76826b32d72b4a6d65201ecf7ef571275b2b",
+        "sha256_in_prefix": "35dae5c47f2186d45080b7422aee76826b32d72b4a6d65201ecf7ef571275b2b",
+        "size_in_bytes": 4363
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ecb5ab2353c4499311fe17c82210955a498526c9563861777b3b0cd6dcc5cfea",
+  "size": 22366,
+  "subdir": "win-64",
+  "timestamp": 1709815905000,
+  "url": "https://conda.anaconda.org/conda-forge/win-64/aws-c-compression-0.2.18-hf6fcf4e_2.conda",
+  "version": "0.2.18"
+}

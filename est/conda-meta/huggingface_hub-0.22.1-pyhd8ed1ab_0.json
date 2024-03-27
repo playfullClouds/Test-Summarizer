@@ -1,0 +1,1505 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "filelock",
+    "fsspec >=2023.5.0",
+    "packaging >=20.9",
+    "python >=3.8",
+    "pyyaml >=5.1",
+    "requests",
+    "tqdm >=4.42.1",
+    "typing-extensions >=3.7.4.3"
+  ],
+  "extracted_package_dir": "C:\\Users\\harry\\.conda\\pkgs\\huggingface_hub-0.22.1-pyhd8ed1ab_0",
+  "files": [
+    "Lib/site-packages/huggingface_hub-0.22.1.dist-info/INSTALLER",
+    "Lib/site-packages/huggingface_hub-0.22.1.dist-info/LICENSE",
+    "Lib/site-packages/huggingface_hub-0.22.1.dist-info/METADATA",
+    "Lib/site-packages/huggingface_hub-0.22.1.dist-info/RECORD",
+    "Lib/site-packages/huggingface_hub-0.22.1.dist-info/REQUESTED",
+    "Lib/site-packages/huggingface_hub-0.22.1.dist-info/WHEEL",
+    "Lib/site-packages/huggingface_hub-0.22.1.dist-info/direct_url.json",
+    "Lib/site-packages/huggingface_hub-0.22.1.dist-info/entry_points.txt",
+    "Lib/site-packages/huggingface_hub-0.22.1.dist-info/top_level.txt",
+    "Lib/site-packages/huggingface_hub/__init__.py",
+    "Lib/site-packages/huggingface_hub/_commit_api.py",
+    "Lib/site-packages/huggingface_hub/_commit_scheduler.py",
+    "Lib/site-packages/huggingface_hub/_inference_endpoints.py",
+    "Lib/site-packages/huggingface_hub/_login.py",
+    "Lib/site-packages/huggingface_hub/_multi_commits.py",
+    "Lib/site-packages/huggingface_hub/_snapshot_download.py",
+    "Lib/site-packages/huggingface_hub/_space_api.py",
+    "Lib/site-packages/huggingface_hub/_tensorboard_logger.py",
+    "Lib/site-packages/huggingface_hub/_webhooks_payload.py",
+    "Lib/site-packages/huggingface_hub/_webhooks_server.py",
+    "Lib/site-packages/huggingface_hub/commands/__init__.py",
+    "Lib/site-packages/huggingface_hub/commands/_cli_utils.py",
+    "Lib/site-packages/huggingface_hub/commands/delete_cache.py",
+    "Lib/site-packages/huggingface_hub/commands/download.py",
+    "Lib/site-packages/huggingface_hub/commands/env.py",
+    "Lib/site-packages/huggingface_hub/commands/huggingface_cli.py",
+    "Lib/site-packages/huggingface_hub/commands/lfs.py",
+    "Lib/site-packages/huggingface_hub/commands/scan_cache.py",
+    "Lib/site-packages/huggingface_hub/commands/upload.py",
+    "Lib/site-packages/huggingface_hub/commands/user.py",
+    "Lib/site-packages/huggingface_hub/community.py",
+    "Lib/site-packages/huggingface_hub/constants.py",
+    "Lib/site-packages/huggingface_hub/errors.py",
+    "Lib/site-packages/huggingface_hub/fastai_utils.py",
+    "Lib/site-packages/huggingface_hub/file_download.py",
+    "Lib/site-packages/huggingface_hub/hf_api.py",
+    "Lib/site-packages/huggingface_hub/hf_file_system.py",
+    "Lib/site-packages/huggingface_hub/hub_mixin.py",
+    "Lib/site-packages/huggingface_hub/inference/__init__.py",
+    "Lib/site-packages/huggingface_hub/inference/_client.py",
+    "Lib/site-packages/huggingface_hub/inference/_common.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/__init__.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/_async_client.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__init__.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/audio_classification.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/audio_to_audio.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/automatic_speech_recognition.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/base.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/chat_completion.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/depth_estimation.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/document_question_answering.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/feature_extraction.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/fill_mask.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/image_classification.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/image_segmentation.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/image_to_image.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/image_to_text.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/object_detection.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/question_answering.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/sentence_similarity.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/summarization.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/table_question_answering.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/text2text_generation.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/text_classification.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/text_generation.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/text_to_audio.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/text_to_image.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/token_classification.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/translation.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/video_classification.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/visual_question_answering.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/zero_shot_classification.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/zero_shot_image_classification.py",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/zero_shot_object_detection.py",
+    "Lib/site-packages/huggingface_hub/inference/_templating.py",
+    "Lib/site-packages/huggingface_hub/inference/_types.py",
+    "Lib/site-packages/huggingface_hub/inference_api.py",
+    "Lib/site-packages/huggingface_hub/keras_mixin.py",
+    "Lib/site-packages/huggingface_hub/lfs.py",
+    "Lib/site-packages/huggingface_hub/repocard.py",
+    "Lib/site-packages/huggingface_hub/repocard_data.py",
+    "Lib/site-packages/huggingface_hub/repository.py",
+    "Lib/site-packages/huggingface_hub/serialization/__init__.py",
+    "Lib/site-packages/huggingface_hub/serialization/_base.py",
+    "Lib/site-packages/huggingface_hub/serialization/_numpy.py",
+    "Lib/site-packages/huggingface_hub/serialization/_tensorflow.py",
+    "Lib/site-packages/huggingface_hub/serialization/_torch.py",
+    "Lib/site-packages/huggingface_hub/templates/datasetcard_template.md",
+    "Lib/site-packages/huggingface_hub/templates/modelcard_template.md",
+    "Lib/site-packages/huggingface_hub/utils/__init__.py",
+    "Lib/site-packages/huggingface_hub/utils/_cache_assets.py",
+    "Lib/site-packages/huggingface_hub/utils/_cache_manager.py",
+    "Lib/site-packages/huggingface_hub/utils/_chunk_utils.py",
+    "Lib/site-packages/huggingface_hub/utils/_datetime.py",
+    "Lib/site-packages/huggingface_hub/utils/_deprecation.py",
+    "Lib/site-packages/huggingface_hub/utils/_errors.py",
+    "Lib/site-packages/huggingface_hub/utils/_experimental.py",
+    "Lib/site-packages/huggingface_hub/utils/_fixes.py",
+    "Lib/site-packages/huggingface_hub/utils/_git_credential.py",
+    "Lib/site-packages/huggingface_hub/utils/_headers.py",
+    "Lib/site-packages/huggingface_hub/utils/_hf_folder.py",
+    "Lib/site-packages/huggingface_hub/utils/_http.py",
+    "Lib/site-packages/huggingface_hub/utils/_pagination.py",
+    "Lib/site-packages/huggingface_hub/utils/_paths.py",
+    "Lib/site-packages/huggingface_hub/utils/_runtime.py",
+    "Lib/site-packages/huggingface_hub/utils/_safetensors.py",
+    "Lib/site-packages/huggingface_hub/utils/_subprocess.py",
+    "Lib/site-packages/huggingface_hub/utils/_telemetry.py",
+    "Lib/site-packages/huggingface_hub/utils/_token.py",
+    "Lib/site-packages/huggingface_hub/utils/_typing.py",
+    "Lib/site-packages/huggingface_hub/utils/_validators.py",
+    "Lib/site-packages/huggingface_hub/utils/endpoint_helpers.py",
+    "Lib/site-packages/huggingface_hub/utils/insecure_hashlib.py",
+    "Lib/site-packages/huggingface_hub/utils/logging.py",
+    "Lib/site-packages/huggingface_hub/utils/sha.py",
+    "Lib/site-packages/huggingface_hub/utils/tqdm.py",
+    "Lib/site-packages/huggingface_hub/__pycache__/__init__.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/__pycache__/_commit_api.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/__pycache__/_commit_scheduler.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/__pycache__/_inference_endpoints.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/__pycache__/_login.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/__pycache__/_multi_commits.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/__pycache__/_snapshot_download.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/__pycache__/_space_api.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/__pycache__/_tensorboard_logger.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/__pycache__/_webhooks_payload.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/__pycache__/_webhooks_server.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/commands/__pycache__/__init__.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/commands/__pycache__/_cli_utils.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/commands/__pycache__/delete_cache.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/commands/__pycache__/download.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/commands/__pycache__/env.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/commands/__pycache__/huggingface_cli.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/commands/__pycache__/lfs.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/commands/__pycache__/scan_cache.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/commands/__pycache__/upload.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/commands/__pycache__/user.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/__pycache__/community.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/__pycache__/constants.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/__pycache__/errors.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/__pycache__/fastai_utils.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/__pycache__/file_download.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/__pycache__/hf_api.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/__pycache__/hf_file_system.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/__pycache__/hub_mixin.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/__pycache__/__init__.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/__pycache__/_client.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/__pycache__/_common.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/__pycache__/__init__.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/__pycache__/_async_client.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/__init__.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/audio_classification.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/audio_to_audio.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/automatic_speech_recognition.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/base.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/chat_completion.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/depth_estimation.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/document_question_answering.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/feature_extraction.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/fill_mask.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/image_classification.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/image_segmentation.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/image_to_image.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/image_to_text.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/object_detection.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/question_answering.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/sentence_similarity.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/summarization.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/table_question_answering.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/text2text_generation.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/text_classification.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/text_generation.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/text_to_audio.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/text_to_image.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/token_classification.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/translation.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/video_classification.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/visual_question_answering.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/zero_shot_classification.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/zero_shot_image_classification.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/zero_shot_object_detection.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/__pycache__/_templating.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/inference/__pycache__/_types.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/__pycache__/inference_api.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/__pycache__/keras_mixin.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/__pycache__/lfs.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/__pycache__/repocard.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/__pycache__/repocard_data.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/__pycache__/repository.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/serialization/__pycache__/__init__.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/serialization/__pycache__/_base.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/serialization/__pycache__/_numpy.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/serialization/__pycache__/_tensorflow.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/serialization/__pycache__/_torch.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/utils/__pycache__/__init__.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/utils/__pycache__/_cache_assets.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/utils/__pycache__/_cache_manager.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/utils/__pycache__/_chunk_utils.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/utils/__pycache__/_datetime.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/utils/__pycache__/_deprecation.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/utils/__pycache__/_errors.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/utils/__pycache__/_experimental.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/utils/__pycache__/_fixes.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/utils/__pycache__/_git_credential.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/utils/__pycache__/_headers.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/utils/__pycache__/_hf_folder.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/utils/__pycache__/_http.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/utils/__pycache__/_pagination.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/utils/__pycache__/_paths.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/utils/__pycache__/_runtime.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/utils/__pycache__/_safetensors.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/utils/__pycache__/_subprocess.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/utils/__pycache__/_telemetry.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/utils/__pycache__/_token.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/utils/__pycache__/_typing.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/utils/__pycache__/_validators.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/utils/__pycache__/endpoint_helpers.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/utils/__pycache__/insecure_hashlib.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/utils/__pycache__/logging.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/utils/__pycache__/sha.cpython-311.pyc",
+    "Lib/site-packages/huggingface_hub/utils/__pycache__/tqdm.cpython-311.pyc",
+    "Scripts/huggingface-cli-script.py",
+    "Scripts/huggingface-cli.exe"
+  ],
+  "fn": "huggingface_hub-0.22.1-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\harry\\.conda\\pkgs\\huggingface_hub-0.22.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "b9f58e10a6247f5ca5d70a6040f62943",
+  "name": "huggingface_hub",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\harry\\.conda\\pkgs\\huggingface_hub-0.22.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/huggingface_hub-0.22.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/huggingface_hub-0.22.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "sha256_in_prefix": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "size_in_bytes": 11357
+      },
+      {
+        "_path": "site-packages/huggingface_hub-0.22.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "17b7226137f1d0febd75aa35f106b9661c1285023fdba7f273d6c5e64b6f0f6b",
+        "sha256_in_prefix": "17b7226137f1d0febd75aa35f106b9661c1285023fdba7f273d6c5e64b6f0f6b",
+        "size_in_bytes": 12849
+      },
+      {
+        "_path": "site-packages/huggingface_hub-0.22.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "28e0403a61362eaf5374e654878d112d1d8c2dca2dd5d69faaa882c2dd379965",
+        "sha256_in_prefix": "28e0403a61362eaf5374e654878d112d1d8c2dca2dd5d69faaa882c2dd379965",
+        "size_in_bytes": 19339
+      },
+      {
+        "_path": "site-packages/huggingface_hub-0.22.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/huggingface_hub-0.22.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
+        "sha256_in_prefix": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/huggingface_hub-0.22.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "2b1170ac2b963266e7f3a3cfa87ca7c84c082c3fbe2b0011d0ed7c314f53da8b",
+        "sha256_in_prefix": "2b1170ac2b963266e7f3a3cfa87ca7c84c082c3fbe2b0011d0ed7c314f53da8b",
+        "size_in_bytes": 111
+      },
+      {
+        "_path": "site-packages/huggingface_hub-0.22.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "fafd66a81167678d7814adedd1743580d2d4de44de16cdf729d2075ee25f5751",
+        "sha256_in_prefix": "fafd66a81167678d7814adedd1743580d2d4de44de16cdf729d2075ee25f5751",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "site-packages/huggingface_hub-0.22.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "f0ace5409018e26894be302cb0e009a1da8a3b0de16ab373ba2c0643da8b4929",
+        "sha256_in_prefix": "f0ace5409018e26894be302cb0e009a1da8a3b0de16ab373ba2c0643da8b4929",
+        "size_in_bytes": 16
+      },
+      {
+        "_path": "site-packages/huggingface_hub/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6e062a3eac49e93c9ec50e6f27cce69579d04758f007bb2603cc6fe31e723927",
+        "sha256_in_prefix": "6e062a3eac49e93c9ec50e6f27cce69579d04758f007bb2603cc6fe31e723927",
+        "size_in_bytes": 31075
+      },
+      {
+        "_path": "site-packages/huggingface_hub/_commit_api.py",
+        "path_type": "hardlink",
+        "sha256": "00d6a61cc8478ef03ac4268bbb259c6f02bad8932f1271b0224a661c1955a19a",
+        "sha256_in_prefix": "00d6a61cc8478ef03ac4268bbb259c6f02bad8932f1271b0224a661c1955a19a",
+        "size_in_bytes": 29175
+      },
+      {
+        "_path": "site-packages/huggingface_hub/_commit_scheduler.py",
+        "path_type": "hardlink",
+        "sha256": "1607e362fdc4d282b7881c43772e3963bb7bf055a49a39c1478751779699be25",
+        "sha256_in_prefix": "1607e362fdc4d282b7881c43772e3963bb7bf055a49a39c1478751779699be25",
+        "size_in_bytes": 13653
+      },
+      {
+        "_path": "site-packages/huggingface_hub/_inference_endpoints.py",
+        "path_type": "hardlink",
+        "sha256": "c06727c5934509b30aefb480f747cfb19f5ba8d1b03e8a5256bfac4db770de8f",
+        "sha256_in_prefix": "c06727c5934509b30aefb480f747cfb19f5ba8d1b03e8a5256bfac4db770de8f",
+        "size_in_bytes": 15763
+      },
+      {
+        "_path": "site-packages/huggingface_hub/_login.py",
+        "path_type": "hardlink",
+        "sha256": "8cd4c50a7a2ef9e640b4c5a5d4f0eec99866a56dcef9fe2a7dff66e615345069",
+        "sha256_in_prefix": "8cd4c50a7a2ef9e640b4c5a5d4f0eec99866a56dcef9fe2a7dff66e615345069",
+        "size_in_bytes": 15364
+      },
+      {
+        "_path": "site-packages/huggingface_hub/_multi_commits.py",
+        "path_type": "hardlink",
+        "sha256": "aed37401a1f36a65e2d5cbebd6bd8c96a47acbe95a671811a3edf427f2374703",
+        "sha256_in_prefix": "aed37401a1f36a65e2d5cbebd6bd8c96a47acbe95a671811a3edf427f2374703",
+        "size_in_bytes": 12519
+      },
+      {
+        "_path": "site-packages/huggingface_hub/_snapshot_download.py",
+        "path_type": "hardlink",
+        "sha256": "957b1259a0d238fd211f9ffdb4e4816b3340b5648184df1d31c8eb2d8ee13487",
+        "sha256_in_prefix": "957b1259a0d238fd211f9ffdb4e4816b3340b5648184df1d31c8eb2d8ee13487",
+        "size_in_bytes": 15677
+      },
+      {
+        "_path": "site-packages/huggingface_hub/_space_api.py",
+        "path_type": "hardlink",
+        "sha256": "31a7bf96a4d1c935b2b332399a539b2767e7f6c94fc6414f7054c45400e83503",
+        "sha256_in_prefix": "31a7bf96a4d1c935b2b332399a539b2767e7f6c94fc6414f7054c45400e83503",
+        "size_in_bytes": 5255
+      },
+      {
+        "_path": "site-packages/huggingface_hub/_tensorboard_logger.py",
+        "path_type": "hardlink",
+        "sha256": "baa9a42812b28faffd5df5aae7adda7e00117a767bf9f8c41dbd7aae0636e3e6",
+        "sha256_in_prefix": "baa9a42812b28faffd5df5aae7adda7e00117a767bf9f8c41dbd7aae0636e3e6",
+        "size_in_bytes": 7166
+      },
+      {
+        "_path": "site-packages/huggingface_hub/_webhooks_payload.py",
+        "path_type": "hardlink",
+        "sha256": "705f6258e39a70e65fa8a19cb95872903800647ac738ded532e2f0c1e865e8ef",
+        "sha256_in_prefix": "705f6258e39a70e65fa8a19cb95872903800647ac738ded532e2f0c1e865e8ef",
+        "size_in_bytes": 2832
+      },
+      {
+        "_path": "site-packages/huggingface_hub/_webhooks_server.py",
+        "path_type": "hardlink",
+        "sha256": "7c36f20eedbcaa124941bf2d2a91f50bc9787094af0b71abdac528d436c8a03f",
+        "sha256_in_prefix": "7c36f20eedbcaa124941bf2d2a91f50bc9787094af0b71abdac528d436c8a03f",
+        "size_in_bytes": 15197
+      },
+      {
+        "_path": "site-packages/huggingface_hub/commands/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0246ccd9afa21a1d15abfc405a12b79aedee678e249bcf97e6e5a329cbdcad44",
+        "sha256_in_prefix": "0246ccd9afa21a1d15abfc405a12b79aedee678e249bcf97e6e5a329cbdcad44",
+        "size_in_bytes": 928
+      },
+      {
+        "_path": "site-packages/huggingface_hub/commands/_cli_utils.py",
+        "path_type": "hardlink",
+        "sha256": "a91765f68a62df22712153429eb9ad7be8c55a661b8d5a9df200658a7f0d3736",
+        "sha256_in_prefix": "a91765f68a62df22712153429eb9ad7be8c55a661b8d5a9df200658a7f0d3736",
+        "size_in_bytes": 1971
+      },
+      {
+        "_path": "site-packages/huggingface_hub/commands/delete_cache.py",
+        "path_type": "hardlink",
+        "sha256": "45bd41b4896d24f9d0fad87bb5c2bf2f8985a9f93bf39b7729757bef15ca04fe",
+        "sha256_in_prefix": "45bd41b4896d24f9d0fad87bb5c2bf2f8985a9f93bf39b7729757bef15ca04fe",
+        "size_in_bytes": 16131
+      },
+      {
+        "_path": "site-packages/huggingface_hub/commands/download.py",
+        "path_type": "hardlink",
+        "sha256": "c86abd4a54d11d1e9306b932fd5048ca8ebc7b482730b8183c1608046eddf5b4",
+        "sha256_in_prefix": "c86abd4a54d11d1e9306b932fd5048ca8ebc7b482730b8183c1608046eddf5b4",
+        "size_in_bytes": 9167
+      },
+      {
+        "_path": "site-packages/huggingface_hub/commands/env.py",
+        "path_type": "hardlink",
+        "sha256": "c989780d24b5e15f2ddb8e27022d2defb233c792c87604bf772eb1895e5540c1",
+        "sha256_in_prefix": "c989780d24b5e15f2ddb8e27022d2defb233c792c87604bf772eb1895e5540c1",
+        "size_in_bytes": 1226
+      },
+      {
+        "_path": "site-packages/huggingface_hub/commands/huggingface_cli.py",
+        "path_type": "hardlink",
+        "sha256": "a3ceb60bdf0e719a32a82cd8ee636989ad61d0a68b2548126f4cb5d28b7cb310",
+        "sha256_in_prefix": "a3ceb60bdf0e719a32a82cd8ee636989ad61d0a68b2548126f4cb5d28b7cb310",
+        "size_in_bytes": 1924
+      },
+      {
+        "_path": "site-packages/huggingface_hub/commands/lfs.py",
+        "path_type": "hardlink",
+        "sha256": "e84efaf40a11c540e220e6a99f5fd0bd36cdb5d527522a2ebb61781a8a69e1da",
+        "sha256_in_prefix": "e84efaf40a11c540e220e6a99f5fd0bd36cdb5d527522a2ebb61781a8a69e1da",
+        "size_in_bytes": 7318
+      },
+      {
+        "_path": "site-packages/huggingface_hub/commands/scan_cache.py",
+        "path_type": "hardlink",
+        "sha256": "e28fe342c665a227116be3fc827714067715c96b30a5217d4fa28694dac6a1d9",
+        "sha256_in_prefix": "e28fe342c665a227116be3fc827714067715c96b30a5217d4fa28694dac6a1d9",
+        "size_in_bytes": 5183
+      },
+      {
+        "_path": "site-packages/huggingface_hub/commands/upload.py",
+        "path_type": "hardlink",
+        "sha256": "32bebda8eeb4a2da82570d2c55204fca451390bf473bea640b2ba5483da644e3",
+        "sha256_in_prefix": "32bebda8eeb4a2da82570d2c55204fca451390bf473bea640b2ba5483da644e3",
+        "size_in_bytes": 13622
+      },
+      {
+        "_path": "site-packages/huggingface_hub/commands/user.py",
+        "path_type": "hardlink",
+        "sha256": "400a5924e090107003863ba733786543bdaea87b1e6ab0a2084e12769cc675c7",
+        "sha256_in_prefix": "400a5924e090107003863ba733786543bdaea87b1e6ab0a2084e12769cc675c7",
+        "size_in_bytes": 6893
+      },
+      {
+        "_path": "site-packages/huggingface_hub/community.py",
+        "path_type": "hardlink",
+        "sha256": "48168e7c8fb76ad0b345b3b48034bc058c5cb5b76f0f81b45fa0f419f63c1607",
+        "sha256_in_prefix": "48168e7c8fb76ad0b345b3b48034bc058c5cb5b76f0f81b45fa0f419f63c1607",
+        "size_in_bytes": 12203
+      },
+      {
+        "_path": "site-packages/huggingface_hub/constants.py",
+        "path_type": "hardlink",
+        "sha256": "f2bd0968d3212d1f17ea90ba4e73412d0f9355c1c46d15a4d6c27e2d2223e38e",
+        "sha256_in_prefix": "f2bd0968d3212d1f17ea90ba4e73412d0f9355c1c46d15a4d6c27e2d2223e38e",
+        "size_in_bytes": 7821
+      },
+      {
+        "_path": "site-packages/huggingface_hub/errors.py",
+        "path_type": "hardlink",
+        "sha256": "8c260a7923ac40d7c7daddd3b16f242005d74b569697d3da02ade9ac57f3e022",
+        "sha256_in_prefix": "8c260a7923ac40d7c7daddd3b16f242005d74b569697d3da02ade9ac57f3e022",
+        "size_in_bytes": 704
+      },
+      {
+        "_path": "site-packages/huggingface_hub/fastai_utils.py",
+        "path_type": "hardlink",
+        "sha256": "e48ef301f807254fe6667c677fdc205931eb091bbf10057c5536a780355f13fa",
+        "sha256_in_prefix": "e48ef301f807254fe6667c677fdc205931eb091bbf10057c5536a780355f13fa",
+        "size_in_bytes": 16676
+      },
+      {
+        "_path": "site-packages/huggingface_hub/file_download.py",
+        "path_type": "hardlink",
+        "sha256": "0e6384566844b119d7f0cd246662cf2c2efa7a9b4c4f4ae24f0b538458a857c4",
+        "sha256_in_prefix": "0e6384566844b119d7f0cd246662cf2c2efa7a9b4c4f4ae24f0b538458a857c4",
+        "size_in_bytes": 77476
+      },
+      {
+        "_path": "site-packages/huggingface_hub/hf_api.py",
+        "path_type": "hardlink",
+        "sha256": "19e13c8804d65628fa36dafd1f48e585188e6043ac600b6ede28d430b08fb852",
+        "sha256_in_prefix": "19e13c8804d65628fa36dafd1f48e585188e6043ac600b6ede28d430b08fb852",
+        "size_in_bytes": 367572
+      },
+      {
+        "_path": "site-packages/huggingface_hub/hf_file_system.py",
+        "path_type": "hardlink",
+        "sha256": "254093f956417ac0c207eb8dfff7ef42ddeea6b1901131a7525ce30bb4ad40b3",
+        "sha256_in_prefix": "254093f956417ac0c207eb8dfff7ef42ddeea6b1901131a7525ce30bb4ad40b3",
+        "size_in_bytes": 37272
+      },
+      {
+        "_path": "site-packages/huggingface_hub/hub_mixin.py",
+        "path_type": "hardlink",
+        "sha256": "c645132623f94e2022563eadb3d4e17df726e30b9f652de33168a5dcb076bafc",
+        "sha256_in_prefix": "c645132623f94e2022563eadb3d4e17df726e30b9f652de33168a5dcb076bafc",
+        "size_in_bytes": 30423
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_client.py",
+        "path_type": "hardlink",
+        "sha256": "0f83b4ee7605a3bbf995767b89ddf3b9b57abbcfd1c614d54ada1e020101b3e1",
+        "sha256_in_prefix": "0f83b4ee7605a3bbf995767b89ddf3b9b57abbcfd1c614d54ada1e020101b3e1",
+        "size_in_bytes": 104854
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_common.py",
+        "path_type": "hardlink",
+        "sha256": "04e381369174fd5f1f0d7b22daae5e43d8b828894f4ba55f3316312d282445d3",
+        "sha256_in_prefix": "04e381369174fd5f1f0d7b22daae5e43d8b828894f4ba55f3316312d282445d3",
+        "size_in_bytes": 16570
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/_async_client.py",
+        "path_type": "hardlink",
+        "sha256": "77b7ef672c813671bdce2bc74bbac2c1a47b4e511337b244351f8cfd9128ff77",
+        "sha256_in_prefix": "77b7ef672c813671bdce2bc74bbac2c1a47b4e511337b244351f8cfd9128ff77",
+        "size_in_bytes": 108053
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4a829e350f098c180a910220053b1625ee3e67be446f3e9691d2f8650dbbc8d7",
+        "sha256_in_prefix": "4a829e350f098c180a910220053b1625ee3e67be446f3e9691d2f8650dbbc8d7",
+        "size_in_bytes": 4450
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/audio_classification.py",
+        "path_type": "hardlink",
+        "sha256": "c24e245132d06685d62e98943a92911d1444f8962aa899731957bad9500247ed",
+        "sha256_in_prefix": "c24e245132d06685d62e98943a92911d1444f8962aa899731957bad9500247ed",
+        "size_in_bytes": 1347
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/audio_to_audio.py",
+        "path_type": "hardlink",
+        "sha256": "9fb19e09ea73b76e78ca848bb1d8eb2358f87f36208d6cf1a1a284e60649738f",
+        "sha256_in_prefix": "9fb19e09ea73b76e78ca848bb1d8eb2358f87f36208d6cf1a1a284e60649738f",
+        "size_in_bytes": 881
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/automatic_speech_recognition.py",
+        "path_type": "hardlink",
+        "sha256": "fbb507bb94131b04ab2459eb6cc833794169250386c9399f2bf40782d9f1ea3f",
+        "sha256_in_prefix": "fbb507bb94131b04ab2459eb6cc833794169250386c9399f2bf40782d9f1ea3f",
+        "size_in_bytes": 5352
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/base.py",
+        "path_type": "hardlink",
+        "sha256": "0aae20515b70c0b996ca2208ab83522fc91193411693d41658773956ea762d58",
+        "sha256_in_prefix": "0aae20515b70c0b996ca2208ab83522fc91193411693d41658773956ea762d58",
+        "size_in_bytes": 6213
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/chat_completion.py",
+        "path_type": "hardlink",
+        "sha256": "708fa058e82a1019f0871c27db539286428eb3799b8e3cc9d4ec36a732d01307",
+        "sha256_in_prefix": "708fa058e82a1019f0871c27db539286428eb3799b8e3cc9d4ec36a732d01307",
+        "size_in_bytes": 3616
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/depth_estimation.py",
+        "path_type": "hardlink",
+        "sha256": "9662e677c4b7d7764c086f7845b970aae2f450dff4849997021594a9222bb707",
+        "sha256_in_prefix": "9662e677c4b7d7764c086f7845b970aae2f450dff4849997021594a9222bb707",
+        "size_in_bytes": 898
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/document_question_answering.py",
+        "path_type": "hardlink",
+        "sha256": "fe10732b83eef57ff35ec80e3b824d4a5a082ae55f1399bb786c04c396137d9e",
+        "sha256_in_prefix": "fe10732b83eef57ff35ec80e3b824d4a5a082ae55f1399bb786c04c396137d9e",
+        "size_in_bytes": 3264
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/feature_extraction.py",
+        "path_type": "hardlink",
+        "sha256": "29ead3ad1479611d365f4a810f3aed2bcf79dda98219ffda75251b7d63a8cc3e",
+        "sha256_in_prefix": "29ead3ad1479611d365f4a810f3aed2bcf79dda98219ffda75251b7d63a8cc3e",
+        "size_in_bytes": 664
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/fill_mask.py",
+        "path_type": "hardlink",
+        "sha256": "25c6086d30d77387fb93614d6377c25ad27d91edc7519173da90ce3ab0eec4eb",
+        "sha256_in_prefix": "25c6086d30d77387fb93614d6377c25ad27d91edc7519173da90ce3ab0eec4eb",
+        "size_in_bytes": 1714
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/image_classification.py",
+        "path_type": "hardlink",
+        "sha256": "5b54157dcd23eedeaa6f18c8094403c32811c78df23cf1992b24ada201e41ea8",
+        "sha256_in_prefix": "5b54157dcd23eedeaa6f18c8094403c32811c78df23cf1992b24ada201e41ea8",
+        "size_in_bytes": 1359
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/image_segmentation.py",
+        "path_type": "hardlink",
+        "sha256": "9d541ce5086fdfbaaa9939ff33cc5e829360935e28cca7a5b062180bc85b6bfd",
+        "sha256_in_prefix": "9d541ce5086fdfbaaa9939ff33cc5e829360935e28cca7a5b062180bc85b6bfd",
+        "size_in_bytes": 1803
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/image_to_image.py",
+        "path_type": "hardlink",
+        "sha256": "31bb9b4bda43f1b14ff4ba08e10a10c49c2950678d5e2e6248493c62685b8743",
+        "sha256_in_prefix": "31bb9b4bda43f1b14ff4ba08e10a10c49c2950678d5e2e6248493c62685b8743",
+        "size_in_bytes": 1797
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/image_to_text.py",
+        "path_type": "hardlink",
+        "sha256": "9a5a0b7fe2ceee847fd876cf635f9730cd7c05f8cc383cad45ac535d89085e86",
+        "sha256_in_prefix": "9a5a0b7fe2ceee847fd876cf635f9730cd7c05f8cc383cad45ac535d89085e86",
+        "size_in_bytes": 4827
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/object_detection.py",
+        "path_type": "hardlink",
+        "sha256": "17c972e86484f1dba9b1e90f55fe86e6723cb5e64020fe225f0eaedf39b52621",
+        "sha256_in_prefix": "17c972e86484f1dba9b1e90f55fe86e6723cb5e64020fe225f0eaedf39b52621",
+        "size_in_bytes": 1569
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/question_answering.py",
+        "path_type": "hardlink",
+        "sha256": "c4b0f2e6803e93d24f9dc494e8da8f00f6fcad63deadf4db53ce7b1b77bb259d",
+        "sha256_in_prefix": "c4b0f2e6803e93d24f9dc494e8da8f00f6fcad63deadf4db53ce7b1b77bb259d",
+        "size_in_bytes": 2884
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/sentence_similarity.py",
+        "path_type": "hardlink",
+        "sha256": "79d1fe4d67e7678274cc90fecea7dc44c2f0395d1d4edd60e58d1c6989d5b8f7",
+        "sha256_in_prefix": "79d1fe4d67e7678274cc90fecea7dc44c2f0395d1d4edd60e58d1c6989d5b8f7",
+        "size_in_bytes": 1018
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/summarization.py",
+        "path_type": "hardlink",
+        "sha256": "45609787bc9fb48fc95af2ecafb2620e940f7b1ab592560fd79f2d50809471b3",
+        "sha256_in_prefix": "45609787bc9fb48fc95af2ecafb2620e940f7b1ab592560fd79f2d50809471b3",
+        "size_in_bytes": 1574
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/table_question_answering.py",
+        "path_type": "hardlink",
+        "sha256": "3ee559951e9d23a14450aee98cc49532dce40e0adcc5d2a37dc9c36d598f752b",
+        "sha256_in_prefix": "3ee559951e9d23a14450aee98cc49532dce40e0adcc5d2a37dc9c36d598f752b",
+        "size_in_bytes": 1569
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/text2text_generation.py",
+        "path_type": "hardlink",
+        "sha256": "49961f761cab686e6f6762739b50bc93dc3d2182f132d9b9514bb5b54da83909",
+        "sha256_in_prefix": "49961f761cab686e6f6762739b50bc93dc3d2182f132d9b9514bb5b54da83909",
+        "size_in_bytes": 1604
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/text_classification.py",
+        "path_type": "hardlink",
+        "sha256": "bc2ec1d6c07367881d2e31368b663bc3972975a17040a2b57655aa5b46ac8c89",
+        "sha256_in_prefix": "bc2ec1d6c07367881d2e31368b663bc3972975a17040a2b57655aa5b46ac8c89",
+        "size_in_bytes": 1347
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/text_generation.py",
+        "path_type": "hardlink",
+        "sha256": "5478648448fec84546bb2e016200cdce600f04f2562f73750789f84943b298d9",
+        "sha256_in_prefix": "5478648448fec84546bb2e016200cdce600f04f2562f73750789f84943b298d9",
+        "size_in_bytes": 5866
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/text_to_audio.py",
+        "path_type": "hardlink",
+        "sha256": "720bc40ac8b0b327203fd4dfb3f194d4225fa3d0278159fac7db387c708ffa0e",
+        "sha256_in_prefix": "720bc40ac8b0b327203fd4dfb3f194d4225fa3d0278159fac7db387c708ffa0e",
+        "size_in_bytes": 4819
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/text_to_image.py",
+        "path_type": "hardlink",
+        "sha256": "a0119e27e4bd59fb0cc55425bc43a597dc9a0b2317676efbc2c6050fc6edf3b5",
+        "sha256_in_prefix": "a0119e27e4bd59fb0cc55425bc43a597dc9a0b2317676efbc2c6050fc6edf3b5",
+        "size_in_bytes": 1931
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/token_classification.py",
+        "path_type": "hardlink",
+        "sha256": "ee82fc0193935ad7f66d80f64f7db7e860cd32d525ec5b7275a07a59eef06dfc",
+        "sha256_in_prefix": "ee82fc0193935ad7f66d80f64f7db7e860cd32d525ec5b7275a07a59eef06dfc",
+        "size_in_bytes": 1890
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/translation.py",
+        "path_type": "hardlink",
+        "sha256": "32bb82c7aca1cd01a5c52741457095a04851cd149ae4ab386e36753c3ae54de4",
+        "sha256_in_prefix": "32bb82c7aca1cd01a5c52741457095a04851cd149ae4ab386e36753c3ae54de4",
+        "size_in_bytes": 1562
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/video_classification.py",
+        "path_type": "hardlink",
+        "sha256": "048dbf3cffa9c4b4fac3d4ee5fa402673e01b06f99ba44d79d6e9f58c7212393",
+        "sha256_in_prefix": "048dbf3cffa9c4b4fac3d4ee5fa402673e01b06f99ba44d79d6e9f58c7212393",
+        "size_in_bytes": 1579
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/visual_question_answering.py",
+        "path_type": "hardlink",
+        "sha256": "d0f1cd9e3c31c47bc6dd28cecfb3bb0dc91b05e1980ec46695a806d75a889243",
+        "sha256_in_prefix": "d0f1cd9e3c31c47bc6dd28cecfb3bb0dc91b05e1980ec46695a806d75a889243",
+        "size_in_bytes": 1667
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/zero_shot_classification.py",
+        "path_type": "hardlink",
+        "sha256": "bba8df142a83bfd5ea78037913dfd77fb8ea31982a4d1145fd2f4fb566e20549",
+        "sha256_in_prefix": "bba8df142a83bfd5ea78037913dfd77fb8ea31982a4d1145fd2f4fb566e20549",
+        "size_in_bytes": 1963
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/zero_shot_image_classification.py",
+        "path_type": "hardlink",
+        "sha256": "a951fa32cd058c5f13ada1b2e016224bc966bc6abdc62203757a861729cb1cc0",
+        "sha256_in_prefix": "a951fa32cd058c5f13ada1b2e016224bc966bc6abdc62203757a861729cb1cc0",
+        "size_in_bytes": 1689
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_generated/types/zero_shot_object_detection.py",
+        "path_type": "hardlink",
+        "sha256": "3d4e0e3a54366803a8b16d89946d99dbb304429984e81c5cca01ff9ecdf0d4a4",
+        "sha256_in_prefix": "3d4e0e3a54366803a8b16d89946d99dbb304429984e81c5cca01ff9ecdf0d4a4",
+        "size_in_bytes": 1662
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_templating.py",
+        "path_type": "hardlink",
+        "sha256": "fd7ec2a148ce98c8792815f1f9619ecbecf7ba1fdf3f5413dfa5fadfc519a59c",
+        "sha256_in_prefix": "fd7ec2a148ce98c8792815f1f9619ecbecf7ba1fdf3f5413dfa5fadfc519a59c",
+        "size_in_bytes": 4051
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference/_types.py",
+        "path_type": "hardlink",
+        "sha256": "0bbde5e7e44ef0fd543011c5f0e00ef42454abb5ddbf7de97000e826c18c3d25",
+        "sha256_in_prefix": "0bbde5e7e44ef0fd543011c5f0e00ef42454abb5ddbf7de97000e826c18c3d25",
+        "size_in_bytes": 1782
+      },
+      {
+        "_path": "site-packages/huggingface_hub/inference_api.py",
+        "path_type": "hardlink",
+        "sha256": "51738abbf133d88de10ec8e0baa09c0ab8f4dd61439dd7a1a6781888802e71d8",
+        "sha256_in_prefix": "51738abbf133d88de10ec8e0baa09c0ab8f4dd61439dd7a1a6781888802e71d8",
+        "size_in_bytes": 8331
+      },
+      {
+        "_path": "site-packages/huggingface_hub/keras_mixin.py",
+        "path_type": "hardlink",
+        "sha256": "f0bd051085b2fe498ab0623977ad6aff7ddd1986e62c6872e2465baa7f98167b",
+        "sha256_in_prefix": "f0bd051085b2fe498ab0623977ad6aff7ddd1986e62c6872e2465baa7f98167b",
+        "size_in_bytes": 19681
+      },
+      {
+        "_path": "site-packages/huggingface_hub/lfs.py",
+        "path_type": "hardlink",
+        "sha256": "b1749de3c90121a3d01ccd7d234d6703b4a176585f0d5b18e5796229958fe3bb",
+        "sha256_in_prefix": "b1749de3c90121a3d01ccd7d234d6703b4a176585f0d5b18e5796229958fe3bb",
+        "size_in_bytes": 19402
+      },
+      {
+        "_path": "site-packages/huggingface_hub/repocard.py",
+        "path_type": "hardlink",
+        "sha256": "a14ac68a6dbb9c21e47af3c36436d4a7af2e293c41f316dda327aabf6e297b17",
+        "sha256_in_prefix": "a14ac68a6dbb9c21e47af3c36436d4a7af2e293c41f316dda327aabf6e297b17",
+        "size_in_bytes": 34605
+      },
+      {
+        "_path": "site-packages/huggingface_hub/repocard_data.py",
+        "path_type": "hardlink",
+        "sha256": "d6122423cc69d04996d9a4772ed1ccae320c93f5be289c47b25323a4d33054f8",
+        "sha256_in_prefix": "d6122423cc69d04996d9a4772ed1ccae320c93f5be289c47b25323a4d33054f8",
+        "size_in_bytes": 31911
+      },
+      {
+        "_path": "site-packages/huggingface_hub/repository.py",
+        "path_type": "hardlink",
+        "sha256": "f2836128dbc94727b776bebb7139fc7da2a4052896160be3edb20194ea48fbc5",
+        "sha256_in_prefix": "f2836128dbc94727b776bebb7139fc7da2a4052896160be3edb20194ea48fbc5",
+        "size_in_bytes": 54489
+      },
+      {
+        "_path": "site-packages/huggingface_hub/serialization/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5bbe13682b589cc7e9bc6110af5492f8e066a8f5059ccf407964fd8532421bd6",
+        "sha256_in_prefix": "5bbe13682b589cc7e9bc6110af5492f8e066a8f5059ccf407964fd8532421bd6",
+        "size_in_bytes": 910
+      },
+      {
+        "_path": "site-packages/huggingface_hub/serialization/_base.py",
+        "path_type": "hardlink",
+        "sha256": "0203bed7a8bebf2a2c6c44672d20856206976d5a900ccef17c89def20b16acb4",
+        "sha256_in_prefix": "0203bed7a8bebf2a2c6c44672d20856206976d5a900ccef17c89def20b16acb4",
+        "size_in_bytes": 7133
+      },
+      {
+        "_path": "site-packages/huggingface_hub/serialization/_numpy.py",
+        "path_type": "hardlink",
+        "sha256": "89d50b269d63b3a2fa13ca3e322195a8d6b89417d74b671f026aa2be7a6c698b",
+        "sha256_in_prefix": "89d50b269d63b3a2fa13ca3e322195a8d6b89417d74b671f026aa2be7a6c698b",
+        "size_in_bytes": 2671
+      },
+      {
+        "_path": "site-packages/huggingface_hub/serialization/_tensorflow.py",
+        "path_type": "hardlink",
+        "sha256": "45fe24c35358c446a851707c68bb502c7ad38e0a1b6840097733b4c3491b3f9f",
+        "sha256_in_prefix": "45fe24c35358c446a851707c68bb502c7ad38e0a1b6840097733b4c3491b3f9f",
+        "size_in_bytes": 3559
+      },
+      {
+        "_path": "site-packages/huggingface_hub/serialization/_torch.py",
+        "path_type": "hardlink",
+        "sha256": "c5847a7bf1bd95a313ae858b890440052ba5a1342eb91490372607753feb9975",
+        "sha256_in_prefix": "c5847a7bf1bd95a313ae858b890440052ba5a1342eb91490372607753feb9975",
+        "size_in_bytes": 7687
+      },
+      {
+        "_path": "site-packages/huggingface_hub/templates/datasetcard_template.md",
+        "path_type": "hardlink",
+        "sha256": "5be10ca91eb09dd6eb9d9a2b915bf9e944563c6e3d97b3004c6788d35e644efb",
+        "sha256_in_prefix": "5be10ca91eb09dd6eb9d9a2b915bf9e944563c6e3d97b3004c6788d35e644efb",
+        "size_in_bytes": 5503
+      },
+      {
+        "_path": "site-packages/huggingface_hub/templates/modelcard_template.md",
+        "path_type": "hardlink",
+        "sha256": "e00a80ad2ddca9db5b8ade41a3e0e18dc9c3151fa9cdae6112b2cb4cf33862e7",
+        "sha256_in_prefix": "e00a80ad2ddca9db5b8ade41a3e0e18dc9c3151fa9cdae6112b2cb4cf33862e7",
+        "size_in_bytes": 6870
+      },
+      {
+        "_path": "site-packages/huggingface_hub/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4e88d98d95f6341948a9ef0d998d4e034275c1fc9d6cbdb8dbb80c9a64a235b7",
+        "sha256_in_prefix": "4e88d98d95f6341948a9ef0d998d4e034275c1fc9d6cbdb8dbb80c9a64a235b7",
+        "size_in_bytes": 3425
+      },
+      {
+        "_path": "site-packages/huggingface_hub/utils/_cache_assets.py",
+        "path_type": "hardlink",
+        "sha256": "91a8bbec73d031f62944ea2e301402aff81d04269e4e6f7de92aa3d1d1316cd8",
+        "sha256_in_prefix": "91a8bbec73d031f62944ea2e301402aff81d04269e4e6f7de92aa3d1d1316cd8",
+        "size_in_bytes": 5728
+      },
+      {
+        "_path": "site-packages/huggingface_hub/utils/_cache_manager.py",
+        "path_type": "hardlink",
+        "sha256": "16cd5754fd541b3513a2031f31f122fcc7e9511cc7c96fff7635f4b36a0b9ab6",
+        "sha256_in_prefix": "16cd5754fd541b3513a2031f31f122fcc7e9511cc7c96fff7635f4b36a0b9ab6",
+        "size_in_bytes": 29307
+      },
+      {
+        "_path": "site-packages/huggingface_hub/utils/_chunk_utils.py",
+        "path_type": "hardlink",
+        "sha256": "91109a8f9db6f3fbca7322d6b2977c5ead357f5ec9cfa76ce52afd79de5dfd15",
+        "sha256_in_prefix": "91109a8f9db6f3fbca7322d6b2977c5ead357f5ec9cfa76ce52afd79de5dfd15",
+        "size_in_bytes": 2130
+      },
+      {
+        "_path": "site-packages/huggingface_hub/utils/_datetime.py",
+        "path_type": "hardlink",
+        "sha256": "0c79e4b4a9b5b5a78e7b65c2060354e2955c93977bd2abbc149ee70020fa0b79",
+        "sha256_in_prefix": "0c79e4b4a9b5b5a78e7b65c2060354e2955c93977bd2abbc149ee70020fa0b79",
+        "size_in_bytes": 2554
+      },
+      {
+        "_path": "site-packages/huggingface_hub/utils/_deprecation.py",
+        "path_type": "hardlink",
+        "sha256": "1d9851186517fd030a0410701c795f7cbb660922b4d533a97971de7d96cf7f02",
+        "sha256_in_prefix": "1d9851186517fd030a0410701c795f7cbb660922b4d533a97971de7d96cf7f02",
+        "size_in_bytes": 4872
+      },
+      {
+        "_path": "site-packages/huggingface_hub/utils/_errors.py",
+        "path_type": "hardlink",
+        "sha256": "3799d490209a8fcdfddf09ed6b379370a36bc0365fb0354754cc71ade1cf7da1",
+        "sha256_in_prefix": "3799d490209a8fcdfddf09ed6b379370a36bc0365fb0354754cc71ade1cf7da1",
+        "size_in_bytes": 15141
+      },
+      {
+        "_path": "site-packages/huggingface_hub/utils/_experimental.py",
+        "path_type": "hardlink",
+        "sha256": "72b08f1fa93afb5d70c07d8666e67367365b8d4a2d6b2e3dcb05754922613073",
+        "sha256_in_prefix": "72b08f1fa93afb5d70c07d8666e67367365b8d4a2d6b2e3dcb05754922613073",
+        "size_in_bytes": 2395
+      },
+      {
+        "_path": "site-packages/huggingface_hub/utils/_fixes.py",
+        "path_type": "hardlink",
+        "sha256": "12a1bbbb7e89f42dcdb4be55ba40e295c6bdd0657d89dac4373b04561b5d6c8e",
+        "sha256_in_prefix": "12a1bbbb7e89f42dcdb4be55ba40e295c6bdd0657d89dac4373b04561b5d6c8e",
+        "size_in_bytes": 2829
+      },
+      {
+        "_path": "site-packages/huggingface_hub/utils/_git_credential.py",
+        "path_type": "hardlink",
+        "sha256": "48376c89112bd5370047665ed93074139718cd5260bc366bb3ad2877d940b0c7",
+        "sha256_in_prefix": "48376c89112bd5370047665ed93074139718cd5260bc366bb3ad2877d940b0c7",
+        "size_in_bytes": 4596
+      },
+      {
+        "_path": "site-packages/huggingface_hub/utils/_headers.py",
+        "path_type": "hardlink",
+        "sha256": "4ff0b5440d1ba8460bd28884e167453002971143c737e0f8def7218e2c0a719e",
+        "sha256_in_prefix": "4ff0b5440d1ba8460bd28884e167453002971143c737e0f8def7218e2c0a719e",
+        "size_in_bytes": 9643
+      },
+      {
+        "_path": "site-packages/huggingface_hub/utils/_hf_folder.py",
+        "path_type": "hardlink",
+        "sha256": "8161fe4d3f61ffa5ff0b2aed2d3b4a3446b07fd90a9421eb68588ebb4f41b8b9",
+        "sha256_in_prefix": "8161fe4d3f61ffa5ff0b2aed2d3b4a3446b07fd90a9421eb68588ebb4f41b8b9",
+        "size_in_bytes": 3613
+      },
+      {
+        "_path": "site-packages/huggingface_hub/utils/_http.py",
+        "path_type": "hardlink",
+        "sha256": "29a67cbe02684197503bc9a3d712fd0de1a4173fcbfdbd6ac25ed393f8ae6840",
+        "sha256_in_prefix": "29a67cbe02684197503bc9a3d712fd0de1a4173fcbfdbd6ac25ed393f8ae6840",
+        "size_in_bytes": 12890
+      },
+      {
+        "_path": "site-packages/huggingface_hub/utils/_pagination.py",
+        "path_type": "hardlink",
+        "sha256": "8732c52ddf22fc32a43d1558ccec760b12ede65728704880c4326b8905230236",
+        "sha256_in_prefix": "8732c52ddf22fc32a43d1558ccec760b12ede65728704880c4326b8905230236",
+        "size_in_bytes": 1841
+      },
+      {
+        "_path": "site-packages/huggingface_hub/utils/_paths.py",
+        "path_type": "hardlink",
+        "sha256": "021fdd88efa0496c3d4d8ca5265fc7341d975dfb60222dfa1cd94a0184070a6b",
+        "sha256_in_prefix": "021fdd88efa0496c3d4d8ca5265fc7341d975dfb60222dfa1cd94a0184070a6b",
+        "size_in_bytes": 4398
+      },
+      {
+        "_path": "site-packages/huggingface_hub/utils/_runtime.py",
+        "path_type": "hardlink",
+        "sha256": "e8fc640cf5a3de5b51944dbecc0af7bd94d77e2d4e523c482ec99137eb3fc196",
+        "sha256_in_prefix": "e8fc640cf5a3de5b51944dbecc0af7bd94d77e2d4e523c482ec99137eb3fc196",
+        "size_in_bytes": 10851
+      },
+      {
+        "_path": "site-packages/huggingface_hub/utils/_safetensors.py",
+        "path_type": "hardlink",
+        "sha256": "104f6ff477e558152a21e827d1d0861e036ef46f436f7bf66accef1b895d3c5f",
+        "sha256_in_prefix": "104f6ff477e558152a21e827d1d0861e036ef46f436f7bf66accef1b895d3c5f",
+        "size_in_bytes": 4876
+      },
+      {
+        "_path": "site-packages/huggingface_hub/utils/_subprocess.py",
+        "path_type": "hardlink",
+        "sha256": "df81130fc26f2f39b5e8d4591dc89a08b5dd13d691cb1b8374e03981d36f309f",
+        "sha256_in_prefix": "df81130fc26f2f39b5e8d4591dc89a08b5dd13d691cb1b8374e03981d36f309f",
+        "size_in_bytes": 4617
+      },
+      {
+        "_path": "site-packages/huggingface_hub/utils/_telemetry.py",
+        "path_type": "hardlink",
+        "sha256": "8c701d81635c2fd9d5bcc4f779cde2efc3be7302f4f469e589fba8933a508cc2",
+        "sha256_in_prefix": "8c701d81635c2fd9d5bcc4f779cde2efc3be7302f4f469e589fba8933a508cc2",
+        "size_in_bytes": 4641
+      },
+      {
+        "_path": "site-packages/huggingface_hub/utils/_token.py",
+        "path_type": "hardlink",
+        "sha256": "73105969a7d6d88b09d9d296779e6fef4e7acf2716d5ec29fe73e4f1d35c48ee",
+        "sha256_in_prefix": "73105969a7d6d88b09d9d296779e6fef4e7acf2716d5ec29fe73e4f1d35c48ee",
+        "size_in_bytes": 5476
+      },
+      {
+        "_path": "site-packages/huggingface_hub/utils/_typing.py",
+        "path_type": "hardlink",
+        "sha256": "a5787b1ad56d4810ff16fbed85ec7d0514c0259e9b5927143b0d3aa094b42de9",
+        "sha256_in_prefix": "a5787b1ad56d4810ff16fbed85ec7d0514c0259e9b5927143b0d3aa094b42de9",
+        "size_in_bytes": 2025
+      },
+      {
+        "_path": "site-packages/huggingface_hub/utils/_validators.py",
+        "path_type": "hardlink",
+        "sha256": "a2d153e314f7b3f13ffa3af31f8351ef15a02bb525464c24fca008f572b599bd",
+        "sha256_in_prefix": "a2d153e314f7b3f13ffa3af31f8351ef15a02bb525464c24fca008f572b599bd",
+        "size_in_bytes": 9359
+      },
+      {
+        "_path": "site-packages/huggingface_hub/utils/endpoint_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "9ff560b91fcbd9597a322ff83c53b6880779c5a3de411883f0a441a73b389ccc",
+        "sha256_in_prefix": "9ff560b91fcbd9597a322ff83c53b6880779c5a3de411883f0a441a73b389ccc",
+        "size_in_bytes": 9536
+      },
+      {
+        "_path": "site-packages/huggingface_hub/utils/insecure_hashlib.py",
+        "path_type": "hardlink",
+        "sha256": "3a3c65bed4901e96cba7d3d64ab5c10c9d301e3c42054f9240982e7041170db5",
+        "sha256_in_prefix": "3a3c65bed4901e96cba7d3d64ab5c10c9d301e3c42054f9240982e7041170db5",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "site-packages/huggingface_hub/utils/logging.py",
+        "path_type": "hardlink",
+        "sha256": "0a9d37b34b8497790333d5c7416f5af0602813138343e7bb904b6032dfbf4e8f",
+        "sha256_in_prefix": "0a9d37b34b8497790333d5c7416f5af0602813138343e7bb904b6032dfbf4e8f",
+        "size_in_bytes": 4728
+      },
+      {
+        "_path": "site-packages/huggingface_hub/utils/sha.py",
+        "path_type": "hardlink",
+        "sha256": "40b948c0f0b2cf8e8c99473fe0bf3197ceca7d8a0192cf643e0b0c679242cfea",
+        "sha256_in_prefix": "40b948c0f0b2cf8e8c99473fe0bf3197ceca7d8a0192cf643e0b0c679242cfea",
+        "size_in_bytes": 902
+      },
+      {
+        "_path": "site-packages/huggingface_hub/utils/tqdm.py",
+        "path_type": "hardlink",
+        "sha256": "d87f349ff903a6fa7b3f88bb31a611e3bb78d62d25e8e0e2e6669bd68a1fd5d9",
+        "sha256_in_prefix": "d87f349ff903a6fa7b3f88bb31a611e3bb78d62d25e8e0e2e6669bd68a1fd5d9",
+        "size_in_bytes": 6335
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/__pycache__/_commit_api.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/__pycache__/_commit_scheduler.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/__pycache__/_inference_endpoints.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/__pycache__/_login.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/__pycache__/_multi_commits.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/__pycache__/_snapshot_download.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/__pycache__/_space_api.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/__pycache__/_tensorboard_logger.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/__pycache__/_webhooks_payload.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/__pycache__/_webhooks_server.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/commands/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/commands/__pycache__/_cli_utils.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/commands/__pycache__/delete_cache.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/commands/__pycache__/download.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/commands/__pycache__/env.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/commands/__pycache__/huggingface_cli.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/commands/__pycache__/lfs.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/commands/__pycache__/scan_cache.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/commands/__pycache__/upload.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/commands/__pycache__/user.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/__pycache__/community.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/__pycache__/constants.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/__pycache__/errors.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/__pycache__/fastai_utils.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/__pycache__/file_download.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/__pycache__/hf_api.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/__pycache__/hf_file_system.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/__pycache__/hub_mixin.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/__pycache__/_client.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/__pycache__/_common.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/__pycache__/_async_client.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/audio_classification.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/audio_to_audio.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/automatic_speech_recognition.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/base.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/chat_completion.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/depth_estimation.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/document_question_answering.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/feature_extraction.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/fill_mask.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/image_classification.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/image_segmentation.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/image_to_image.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/image_to_text.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/object_detection.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/question_answering.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/sentence_similarity.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/summarization.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/table_question_answering.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/text2text_generation.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/text_classification.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/text_generation.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/text_to_audio.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/text_to_image.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/token_classification.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/translation.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/video_classification.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/visual_question_answering.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/zero_shot_classification.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/zero_shot_image_classification.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/_generated/types/__pycache__/zero_shot_object_detection.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/__pycache__/_templating.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/inference/__pycache__/_types.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/__pycache__/inference_api.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/__pycache__/keras_mixin.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/__pycache__/lfs.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/__pycache__/repocard.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/__pycache__/repocard_data.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/__pycache__/repository.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/serialization/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/serialization/__pycache__/_base.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/serialization/__pycache__/_numpy.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/serialization/__pycache__/_tensorflow.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/serialization/__pycache__/_torch.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/utils/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/utils/__pycache__/_cache_assets.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/utils/__pycache__/_cache_manager.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/utils/__pycache__/_chunk_utils.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/utils/__pycache__/_datetime.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/utils/__pycache__/_deprecation.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/utils/__pycache__/_errors.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/utils/__pycache__/_experimental.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/utils/__pycache__/_fixes.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/utils/__pycache__/_git_credential.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/utils/__pycache__/_headers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/utils/__pycache__/_hf_folder.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/utils/__pycache__/_http.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/utils/__pycache__/_pagination.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/utils/__pycache__/_paths.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/utils/__pycache__/_runtime.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/utils/__pycache__/_safetensors.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/utils/__pycache__/_subprocess.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/utils/__pycache__/_telemetry.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/utils/__pycache__/_token.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/utils/__pycache__/_typing.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/utils/__pycache__/_validators.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/utils/__pycache__/endpoint_helpers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/utils/__pycache__/insecure_hashlib.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/utils/__pycache__/logging.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/utils/__pycache__/sha.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/huggingface_hub/utils/__pycache__/tqdm.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Scripts/huggingface-cli-script.py",
+        "path_type": "windows_python_entry_point_script"
+      },
+      {
+        "_path": "Scripts/huggingface-cli.exe",
+        "path_type": "windows_python_entry_point_exe"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2b6e1276089d2563b047497ecc1ce9d4a502594852c46886f881a4129d1993ce",
+  "size": 243815,
+  "subdir": "noarch",
+  "timestamp": 1711468711000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/huggingface_hub-0.22.1-pyhd8ed1ab_0.conda",
+  "version": "0.22.1"
+}

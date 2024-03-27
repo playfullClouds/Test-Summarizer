@@ -1,0 +1,221 @@
+{
+  "build": "py311hc37eb10_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.11,<3.12.0a0",
+    "python_abi 3.11.* *_cp311",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "extracted_package_dir": "C:\\Users\\harry\\.conda\\pkgs\\safetensors-0.4.2-py311hc37eb10_0",
+  "files": [
+    "Lib/site-packages/safetensors-0.4.2.dist-info/INSTALLER",
+    "Lib/site-packages/safetensors-0.4.2.dist-info/METADATA",
+    "Lib/site-packages/safetensors-0.4.2.dist-info/RECORD",
+    "Lib/site-packages/safetensors-0.4.2.dist-info/REQUESTED",
+    "Lib/site-packages/safetensors-0.4.2.dist-info/WHEEL",
+    "Lib/site-packages/safetensors-0.4.2.dist-info/direct_url.json",
+    "Lib/site-packages/safetensors/__init__.py",
+    "Lib/site-packages/safetensors/__init__.pyi",
+    "Lib/site-packages/safetensors/__pycache__/__init__.cpython-311.pyc",
+    "Lib/site-packages/safetensors/__pycache__/flax.cpython-311.pyc",
+    "Lib/site-packages/safetensors/__pycache__/mlx.cpython-311.pyc",
+    "Lib/site-packages/safetensors/__pycache__/numpy.cpython-311.pyc",
+    "Lib/site-packages/safetensors/__pycache__/paddle.cpython-311.pyc",
+    "Lib/site-packages/safetensors/__pycache__/tensorflow.cpython-311.pyc",
+    "Lib/site-packages/safetensors/__pycache__/torch.cpython-311.pyc",
+    "Lib/site-packages/safetensors/_safetensors_rust.cp311-win_amd64.pyd",
+    "Lib/site-packages/safetensors/flax.py",
+    "Lib/site-packages/safetensors/mlx.py",
+    "Lib/site-packages/safetensors/numpy.py",
+    "Lib/site-packages/safetensors/paddle.py",
+    "Lib/site-packages/safetensors/py.typed",
+    "Lib/site-packages/safetensors/tensorflow.py",
+    "Lib/site-packages/safetensors/torch.py"
+  ],
+  "fn": "safetensors-0.4.2-py311hc37eb10_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\harry\\.conda\\pkgs\\safetensors-0.4.2-py311hc37eb10_0",
+    "type": 1
+  },
+  "md5": "f6d6867418a5af33fc69acecfebef62e",
+  "name": "safetensors",
+  "package_tarball_full_path": "C:\\Users\\harry\\.conda\\pkgs\\safetensors-0.4.2-py311hc37eb10_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/safetensors-0.4.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/safetensors-0.4.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "3ac7a4687ef0348682889e1ca3fce97ebf77c15a334e7c2fa5523365a8b28a3d",
+        "sha256_in_prefix": "3ac7a4687ef0348682889e1ca3fce97ebf77c15a334e7c2fa5523365a8b28a3d",
+        "size_in_bytes": 3842
+      },
+      {
+        "_path": "Lib/site-packages/safetensors-0.4.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "bd6594bda968055a641ba50ba8935ae9f9c800cb7091635e05200759b345fb6b",
+        "sha256_in_prefix": "bd6594bda968055a641ba50ba8935ae9f9c800cb7091635e05200759b345fb6b",
+        "size_in_bytes": 1671
+      },
+      {
+        "_path": "Lib/site-packages/safetensors-0.4.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/safetensors-0.4.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "41678fda23557256f596a24c631901dd2fe3191345d8a23e6a51f578ea91d539",
+        "sha256_in_prefix": "41678fda23557256f596a24c631901dd2fe3191345d8a23e6a51f578ea91d539",
+        "size_in_bytes": 95
+      },
+      {
+        "_path": "Lib/site-packages/safetensors-0.4.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "5c1bc0bfbcd68841a95a6aca5b263294c2a16b9044550029c95226aa09a28220",
+        "sha256_in_prefix": "5c1bc0bfbcd68841a95a6aca5b263294c2a16b9044550029c95226aa09a28220",
+        "size_in_bytes": 72
+      },
+      {
+        "_path": "Lib/site-packages/safetensors/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ac58595761c15432228d4db12a383ed2f8932c44dafb230b320142f7ee3b85d7",
+        "sha256_in_prefix": "ac58595761c15432228d4db12a383ed2f8932c44dafb230b320142f7ee3b85d7",
+        "size_in_bytes": 171
+      },
+      {
+        "_path": "Lib/site-packages/safetensors/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "cfa90d5337a01e9c9002d14bb47bbb8b151858af7e2b06fa1aabd5fffeaa31ec",
+        "sha256_in_prefix": "cfa90d5337a01e9c9002d14bb47bbb8b151858af7e2b06fa1aabd5fffeaa31ec",
+        "size_in_bytes": 1970
+      },
+      {
+        "_path": "Lib/site-packages/safetensors/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "1d30f4d80d174af4c02e038a6f502a81323b6c67e07d39f9d93ea2dede7b8f3b",
+        "sha256_in_prefix": "1d30f4d80d174af4c02e038a6f502a81323b6c67e07d39f9d93ea2dede7b8f3b",
+        "size_in_bytes": 396
+      },
+      {
+        "_path": "Lib/site-packages/safetensors/__pycache__/flax.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "1baa6a906c474ab09cc84c59397a250eff8b7fe8d2426f1d8f401180a138e4df",
+        "sha256_in_prefix": "1baa6a906c474ab09cc84c59397a250eff8b7fe8d2426f1d8f401180a138e4df",
+        "size_in_bytes": 5660
+      },
+      {
+        "_path": "Lib/site-packages/safetensors/__pycache__/mlx.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "f1e957a972dc2f2d3bb64b113cd5f948107995c6200754a6e63d9ad23caab7ba",
+        "sha256_in_prefix": "f1e957a972dc2f2d3bb64b113cd5f948107995c6200754a6e63d9ad23caab7ba",
+        "size_in_bytes": 5684
+      },
+      {
+        "_path": "Lib/site-packages/safetensors/__pycache__/numpy.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "09a47189da762ea43a430c20c44c3e62730800a9b597f15d17397f8d0810b084",
+        "sha256_in_prefix": "09a47189da762ea43a430c20c44c3e62730800a9b597f15d17397f8d0810b084",
+        "size_in_bytes": 7539
+      },
+      {
+        "_path": "Lib/site-packages/safetensors/__pycache__/paddle.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "4ccd6c6b09085a1c8d70f0a7c8980241830ef5acde37a8bee0294de2b6a71dc3",
+        "sha256_in_prefix": "4ccd6c6b09085a1c8d70f0a7c8980241830ef5acde37a8bee0294de2b6a71dc3",
+        "size_in_bytes": 5840
+      },
+      {
+        "_path": "Lib/site-packages/safetensors/__pycache__/tensorflow.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "3e706551a504a7826e6ed119da122a1586219339f11e0cd6e1c59f6e8e50c7e5",
+        "sha256_in_prefix": "3e706551a504a7826e6ed119da122a1586219339f11e0cd6e1c59f6e8e50c7e5",
+        "size_in_bytes": 5731
+      },
+      {
+        "_path": "Lib/site-packages/safetensors/__pycache__/torch.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "9f37d12dddf9d150adb0b72c0ac01b2c18a4c34a5e8ec6454d979a68207af341",
+        "sha256_in_prefix": "9f37d12dddf9d150adb0b72c0ac01b2c18a4c34a5e8ec6454d979a68207af341",
+        "size_in_bytes": 24318
+      },
+      {
+        "_path": "Lib/site-packages/safetensors/_safetensors_rust.cp311-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "a53225fc6ee41aa3fc467c349f17b9a512821b250c665a903acbc68fe2e34e23",
+        "sha256_in_prefix": "a53225fc6ee41aa3fc467c349f17b9a512821b250c665a903acbc68fe2e34e23",
+        "size_in_bytes": 595456
+      },
+      {
+        "_path": "Lib/site-packages/safetensors/flax.py",
+        "path_type": "hardlink",
+        "sha256": "02ec98d981f14c1cb8c5e40bc6103232579d1f2929cf442ccacd7778a8873588",
+        "sha256_in_prefix": "02ec98d981f14c1cb8c5e40bc6103232579d1f2929cf442ccacd7778a8873588",
+        "size_in_bytes": 3846
+      },
+      {
+        "_path": "Lib/site-packages/safetensors/mlx.py",
+        "path_type": "hardlink",
+        "sha256": "ece4c5b5b766188a8b9eb8e8ff7e9125127bcead5a23a1dab2f44f2c1dddfc6c",
+        "sha256_in_prefix": "ece4c5b5b766188a8b9eb8e8ff7e9125127bcead5a23a1dab2f44f2c1dddfc6c",
+        "size_in_bytes": 3837
+      },
+      {
+        "_path": "Lib/site-packages/safetensors/numpy.py",
+        "path_type": "hardlink",
+        "sha256": "e59ff048547155bb005e99de8f6ceeaad7582bd2be9ea66cd4413f1b5e02e829",
+        "sha256_in_prefix": "e59ff048547155bb005e99de8f6ceeaad7582bd2be9ea66cd4413f1b5e02e829",
+        "size_in_bytes": 4937
+      },
+      {
+        "_path": "Lib/site-packages/safetensors/paddle.py",
+        "path_type": "hardlink",
+        "sha256": "eb813e9284256fae38e5cd9099016c94e841f39367ea12759179189ac9150451",
+        "sha256_in_prefix": "eb813e9284256fae38e5cd9099016c94e841f39367ea12759179189ac9150451",
+        "size_in_bytes": 4163
+      },
+      {
+        "_path": "Lib/site-packages/safetensors/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/safetensors/tensorflow.py",
+        "path_type": "hardlink",
+        "sha256": "e9769405cc66d312f8ba535cbd5b2594a67fa89feb052944e74acd9c40823584",
+        "sha256_in_prefix": "e9769405cc66d312f8ba535cbd5b2594a67fa89feb052944e74acd9c40823584",
+        "size_in_bytes": 3890
+      },
+      {
+        "_path": "Lib/site-packages/safetensors/torch.py",
+        "path_type": "hardlink",
+        "sha256": "7f4724d21b1ecac5c92ab564f6c5356d2441a46e5c8a881d28f36da606c0a624",
+        "sha256_in_prefix": "7f4724d21b1ecac5c92ab564f6c5356d2441a46e5c8a881d28f36da606c0a624",
+        "size_in_bytes": 17294
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "fd88f9b3e55dea95c8ed2a45442c03bf0ae3dead297465a7260347ab9213b8bc",
+  "size": 260015,
+  "subdir": "win-64",
+  "timestamp": 1707378421000,
+  "url": "https://conda.anaconda.org/conda-forge/win-64/safetensors-0.4.2-py311hc37eb10_0.conda",
+  "version": "0.4.2"
+}

@@ -1,0 +1,125 @@
+{
+  "build": "hcfcfb64_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "extracted_package_dir": "C:\\Users\\harry\\.conda\\pkgs\\xxhash-0.8.2-hcfcfb64_0",
+  "files": [
+    "Library/bin/xxhash.dll",
+    "Library/bin/xxhsum.exe",
+    "Library/include/xxh3.h",
+    "Library/include/xxhash.h",
+    "Library/lib/cmake/xxHash/xxHashConfig.cmake",
+    "Library/lib/cmake/xxHash/xxHashConfigVersion.cmake",
+    "Library/lib/cmake/xxHash/xxHashTargets-release.cmake",
+    "Library/lib/cmake/xxHash/xxHashTargets.cmake",
+    "Library/lib/pkgconfig/libxxhash.pc",
+    "Library/lib/xxhash.lib",
+    "Library/share/man/man1/xxhsum.1"
+  ],
+  "fn": "xxhash-0.8.2-hcfcfb64_0.conda",
+  "license": "BSD-2-Clause",
+  "link": {
+    "source": "C:\\Users\\harry\\.conda\\pkgs\\xxhash-0.8.2-hcfcfb64_0",
+    "type": 1
+  },
+  "md5": "3ffe20fcd87f7ffb4e5d87765fc6b61b",
+  "name": "xxhash",
+  "package_tarball_full_path": "C:\\Users\\harry\\.conda\\pkgs\\xxhash-0.8.2-hcfcfb64_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/xxhash.dll",
+        "path_type": "hardlink",
+        "sha256": "14dbb3ce4e5f8e55fcd744b28c6660663e23e4bf1ca94b9fa88eb15ccd5ced72",
+        "sha256_in_prefix": "14dbb3ce4e5f8e55fcd744b28c6660663e23e4bf1ca94b9fa88eb15ccd5ced72",
+        "size_in_bytes": 47104
+      },
+      {
+        "_path": "Library/bin/xxhsum.exe",
+        "path_type": "hardlink",
+        "sha256": "4887fbdebcd4a7391e0e3a24b476e299f73454c90eb3b2656acbc074e1774b77",
+        "sha256_in_prefix": "4887fbdebcd4a7391e0e3a24b476e299f73454c90eb3b2656acbc074e1774b77",
+        "size_in_bytes": 44032
+      },
+      {
+        "_path": "Library/include/xxh3.h",
+        "path_type": "hardlink",
+        "sha256": "a927ee0e6e0800835baed52b16bc981ec39f46287271a1a3f77c22cc48634430",
+        "sha256_in_prefix": "a927ee0e6e0800835baed52b16bc981ec39f46287271a1a3f77c22cc48634430",
+        "size_in_bytes": 2394
+      },
+      {
+        "_path": "Library/include/xxhash.h",
+        "path_type": "hardlink",
+        "sha256": "be275e9db21a503c37f24683cdb4908f2370a3e35ab96e02c4ea73dc8e399c43",
+        "sha256_in_prefix": "be275e9db21a503c37f24683cdb4908f2370a3e35ab96e02c4ea73dc8e399c43",
+        "size_in_bytes": 253096
+      },
+      {
+        "_path": "Library/lib/cmake/xxHash/xxHashConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "50a0e9df3bff9e2671027826ad4ecc0469fb043f9ede38080f3d393b05db7379",
+        "sha256_in_prefix": "50a0e9df3bff9e2671027826ad4ecc0469fb043f9ede38080f3d393b05db7379",
+        "size_in_bytes": 964
+      },
+      {
+        "_path": "Library/lib/cmake/xxHash/xxHashConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "d08d905b908ec324b4e2b15576046b8a926c036ab9570f190ab017d83468aa18",
+        "sha256_in_prefix": "d08d905b908ec324b4e2b15576046b8a926c036ab9570f190ab017d83468aa18",
+        "size_in_bytes": 1904
+      },
+      {
+        "_path": "Library/lib/cmake/xxHash/xxHashTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "960b0f768ff960e6c6044521a5333310bfcb736b86ca5d12a0500cb70ee8b99a",
+        "sha256_in_prefix": "960b0f768ff960e6c6044521a5333310bfcb736b86ca5d12a0500cb70ee8b99a",
+        "size_in_bytes": 1328
+      },
+      {
+        "_path": "Library/lib/cmake/xxHash/xxHashTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "b4a9a6b1c515b7fa711820070278ea004f245002a7da65fb9b3c61d315893135",
+        "sha256_in_prefix": "b4a9a6b1c515b7fa711820070278ea004f245002a7da65fb9b3c61d315893135",
+        "size_in_bytes": 4146
+      },
+      {
+        "_path": "Library/lib/pkgconfig/libxxhash.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:/bld/xxhash_1689951644760/_h_env",
+        "sha256": "eee428fcfaf84be70c193b5642a54a80c56a0c99fd685be71b19a9f681b1e1cc",
+        "sha256_in_prefix": "356efc9f0b4d733a4e015f57a1487167452174da92aea1af76844e4e8352a8d2",
+        "size_in_bytes": 462
+      },
+      {
+        "_path": "Library/lib/xxhash.lib",
+        "path_type": "hardlink",
+        "sha256": "c4e5c8c2a1ae536f6b9672cda53407f36e7bf49f3253fc981cb9692cca53ee34",
+        "sha256_in_prefix": "c4e5c8c2a1ae536f6b9672cda53407f36e7bf49f3253fc981cb9692cca53ee34",
+        "size_in_bytes": 12178
+      },
+      {
+        "_path": "Library/share/man/man1/xxhsum.1",
+        "path_type": "hardlink",
+        "sha256": "713e4a07586d786adf4e16587dff03a9d448f34585663f214f420a993e58a8e0",
+        "sha256_in_prefix": "713e4a07586d786adf4e16587dff03a9d448f34585663f214f420a993e58a8e0",
+        "size_in_bytes": 4830
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "885f25c30141182f1841891dea54aea172da13911ba1625a6945e3553cae5aaf",
+  "size": 103328,
+  "subdir": "win-64",
+  "timestamp": 1689952172000,
+  "url": "https://conda.anaconda.org/conda-forge/win-64/xxhash-0.8.2-hcfcfb64_0.conda",
+  "version": "0.8.2"
+}

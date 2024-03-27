@@ -1,0 +1,114 @@
+{
+  "build": "h02312f3_1_cpu",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "libabseil * cxx17*",
+    "libabseil >=20240116.1,<20240117.0a0",
+    "libarrow 15.0.2 h878f99b_1_cpu",
+    "libgrpc >=1.62.1,<1.63.0a0",
+    "libprotobuf >=4.25.3,<4.25.4.0a0",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "extracted_package_dir": "C:\\Users\\harry\\.conda\\pkgs\\libarrow-flight-15.0.2-h02312f3_1_cpu",
+  "files": [
+    "Library/bin/arrow_flight.dll",
+    "Library/lib/arrow_flight.lib",
+    "Library/lib/cmake/ArrowFlight/ArrowFlightConfig.cmake",
+    "Library/lib/cmake/ArrowFlight/ArrowFlightConfigVersion.cmake",
+    "Library/lib/cmake/ArrowFlight/ArrowFlightTargets-release.cmake",
+    "Library/lib/cmake/ArrowFlight/ArrowFlightTargets.cmake",
+    "Library/lib/cmake/ArrowFlight/FindProtobufAlt.cmake",
+    "Library/lib/cmake/ArrowFlight/FindgRPCAlt.cmake",
+    "Library/lib/pkgconfig/arrow-flight.pc"
+  ],
+  "fn": "libarrow-flight-15.0.2-h02312f3_1_cpu.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\harry\\.conda\\pkgs\\libarrow-flight-15.0.2-h02312f3_1_cpu",
+    "type": 1
+  },
+  "md5": "8bc6c812f84251b654b3db070d9b72ad",
+  "name": "libarrow-flight",
+  "package_tarball_full_path": "C:\\Users\\harry\\.conda\\pkgs\\libarrow-flight-15.0.2-h02312f3_1_cpu.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/arrow_flight.dll",
+        "path_type": "hardlink",
+        "sha256": "78997e437b6d171fc82536c63853089d66f51cd825b9ff139b041c3615a851fe",
+        "sha256_in_prefix": "78997e437b6d171fc82536c63853089d66f51cd825b9ff139b041c3615a851fe",
+        "size_in_bytes": 788480
+      },
+      {
+        "_path": "Library/lib/arrow_flight.lib",
+        "path_type": "hardlink",
+        "sha256": "3ffde8025dd1f4814c74b6890a7ed6f885830414a6cc0f0a9b27f048f1176bda",
+        "sha256_in_prefix": "3ffde8025dd1f4814c74b6890a7ed6f885830414a6cc0f0a9b27f048f1176bda",
+        "size_in_bytes": 326628
+      },
+      {
+        "_path": "Library/lib/cmake/ArrowFlight/ArrowFlightConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "4c44a26cb67701d2ca322b8dfe487b3332e65f318d828af29efe0dc6e1e3b4d2",
+        "sha256_in_prefix": "4c44a26cb67701d2ca322b8dfe487b3332e65f318d828af29efe0dc6e1e3b4d2",
+        "size_in_bytes": 2547
+      },
+      {
+        "_path": "Library/lib/cmake/ArrowFlight/ArrowFlightConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "dd240b25be31bb47d233b13e8a03df514af6cb3de909728718d7c2c8c57ea1fa",
+        "sha256_in_prefix": "dd240b25be31bb47d233b13e8a03df514af6cb3de909728718d7c2c8c57ea1fa",
+        "size_in_bytes": 2830
+      },
+      {
+        "_path": "Library/lib/cmake/ArrowFlight/ArrowFlightTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "b30711ebef785e905a8a12e67b43d1d2bf3e7189e2357a832c21b005436254ed",
+        "sha256_in_prefix": "b30711ebef785e905a8a12e67b43d1d2bf3e7189e2357a832c21b005436254ed",
+        "size_in_bytes": 1020
+      },
+      {
+        "_path": "Library/lib/cmake/ArrowFlight/ArrowFlightTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "1ee783170de35a153df50393e5c3dc11ecc2f442fa7badc78424d0a7c092455d",
+        "sha256_in_prefix": "1ee783170de35a153df50393e5c3dc11ecc2f442fa7badc78424d0a7c092455d",
+        "size_in_bytes": 4352
+      },
+      {
+        "_path": "Library/lib/cmake/ArrowFlight/FindProtobufAlt.cmake",
+        "path_type": "hardlink",
+        "sha256": "7eeb7533fdf1c23d9964b2d1ee3c6bf12af32d78e4c0e98922e0408a52831f31",
+        "sha256_in_prefix": "7eeb7533fdf1c23d9964b2d1ee3c6bf12af32d78e4c0e98922e0408a52831f31",
+        "size_in_bytes": 1498
+      },
+      {
+        "_path": "Library/lib/cmake/ArrowFlight/FindgRPCAlt.cmake",
+        "path_type": "hardlink",
+        "sha256": "a638cf633a1e354c02d4fb916655d95835d327c6252108d3a2d082f1801deef9",
+        "sha256_in_prefix": "a638cf633a1e354c02d4fb916655d95835d327c6252108d3a2d082f1801deef9",
+        "size_in_bytes": 4311
+      },
+      {
+        "_path": "Library/lib/pkgconfig/arrow-flight.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:/bld/apache-arrow_1711176409867/_h_env",
+        "sha256": "47769d357a54a60b3666db1f4bda279f724d4d7fa2cc843595f793c314a9d2eb",
+        "sha256_in_prefix": "a876775f429edf46d988000378c242ae825ff6673ae5c4f81183e00c216b5809",
+        "size_in_bytes": 1121
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9e5f73153ed5ee20431943a11e5aee79674bded2584b614d4e4d5962c7a35a64",
+  "size": 289403,
+  "subdir": "win-64",
+  "timestamp": 1711179180000,
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libarrow-flight-15.0.2-h02312f3_1_cpu.conda",
+  "version": "15.0.2"
+}

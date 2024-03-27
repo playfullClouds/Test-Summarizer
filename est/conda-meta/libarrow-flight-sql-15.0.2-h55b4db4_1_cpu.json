@@ -1,0 +1,96 @@
+{
+  "build": "h55b4db4_1_cpu",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "libarrow 15.0.2 h878f99b_1_cpu",
+    "libarrow-flight 15.0.2 h02312f3_1_cpu",
+    "libprotobuf >=4.25.3,<4.25.4.0a0",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "extracted_package_dir": "C:\\Users\\harry\\.conda\\pkgs\\libarrow-flight-sql-15.0.2-h55b4db4_1_cpu",
+  "files": [
+    "Library/bin/arrow_flight_sql.dll",
+    "Library/lib/arrow_flight_sql.lib",
+    "Library/lib/cmake/ArrowFlightSql/ArrowFlightSqlConfig.cmake",
+    "Library/lib/cmake/ArrowFlightSql/ArrowFlightSqlConfigVersion.cmake",
+    "Library/lib/cmake/ArrowFlightSql/ArrowFlightSqlTargets-release.cmake",
+    "Library/lib/cmake/ArrowFlightSql/ArrowFlightSqlTargets.cmake",
+    "Library/lib/pkgconfig/arrow-flight-sql.pc"
+  ],
+  "fn": "libarrow-flight-sql-15.0.2-h55b4db4_1_cpu.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\harry\\.conda\\pkgs\\libarrow-flight-sql-15.0.2-h55b4db4_1_cpu",
+    "type": 1
+  },
+  "md5": "19d5af0b9e0adbb702969a5f75f9596f",
+  "name": "libarrow-flight-sql",
+  "package_tarball_full_path": "C:\\Users\\harry\\.conda\\pkgs\\libarrow-flight-sql-15.0.2-h55b4db4_1_cpu.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/arrow_flight_sql.dll",
+        "path_type": "hardlink",
+        "sha256": "83de23c6a2a453f0501006852b33cd936bb428e840b26185d533760ee528a74b",
+        "sha256_in_prefix": "83de23c6a2a453f0501006852b33cd936bb428e840b26185d533760ee528a74b",
+        "size_in_bytes": 601088
+      },
+      {
+        "_path": "Library/lib/arrow_flight_sql.lib",
+        "path_type": "hardlink",
+        "sha256": "4b502790f9f9a862956388965e4b76f1e7e688b362304740e969e36161336893",
+        "sha256_in_prefix": "4b502790f9f9a862956388965e4b76f1e7e688b362304740e969e36161336893",
+        "size_in_bytes": 1420020
+      },
+      {
+        "_path": "Library/lib/cmake/ArrowFlightSql/ArrowFlightSqlConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "d6ba77c59c89bae222896741856d239a368b410647874a0b248f90017bcdea99",
+        "sha256_in_prefix": "d6ba77c59c89bae222896741856d239a368b410647874a0b248f90017bcdea99",
+        "size_in_bytes": 2433
+      },
+      {
+        "_path": "Library/lib/cmake/ArrowFlightSql/ArrowFlightSqlConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "dd240b25be31bb47d233b13e8a03df514af6cb3de909728718d7c2c8c57ea1fa",
+        "sha256_in_prefix": "dd240b25be31bb47d233b13e8a03df514af6cb3de909728718d7c2c8c57ea1fa",
+        "size_in_bytes": 2830
+      },
+      {
+        "_path": "Library/lib/cmake/ArrowFlightSql/ArrowFlightSqlTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "d96d6582c082d415ac0f2443e05eadf892afa0d083de82f3c62ed7b22232bc09",
+        "sha256_in_prefix": "d96d6582c082d415ac0f2443e05eadf892afa0d083de82f3c62ed7b22232bc09",
+        "size_in_bytes": 1071
+      },
+      {
+        "_path": "Library/lib/cmake/ArrowFlightSql/ArrowFlightSqlTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "9541669198c3f2ddced457e28e806164751b8f9f0131e6c1a03def38918ceebb",
+        "sha256_in_prefix": "9541669198c3f2ddced457e28e806164751b8f9f0131e6c1a03def38918ceebb",
+        "size_in_bytes": 4396
+      },
+      {
+        "_path": "Library/lib/pkgconfig/arrow-flight-sql.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:/bld/apache-arrow_1711176409867/_h_env",
+        "sha256": "67a0c71728b6727ae3f7b98b5eb2a5f9ef736d279e3f74f76453fb6bd5f124dc",
+        "sha256_in_prefix": "43c369af5d547eb872ec135280885391f3fd320156209ab661919a2deb20d32b",
+        "size_in_bytes": 1115
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7954820f6e8d924419a372d90db68c1aa707101dbf9dc0204497597f831adab8",
+  "size": 235286,
+  "subdir": "win-64",
+  "timestamp": 1711179521000,
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libarrow-flight-sql-15.0.2-h55b4db4_1_cpu.conda",
+  "version": "15.0.2"
+}

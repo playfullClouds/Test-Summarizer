@@ -1,0 +1,158 @@
+{
+  "build": "py311ha68e1ae_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.11,<3.12.0a0",
+    "python_abi 3.11.* *_cp311",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139",
+    "xxhash >=0.8.2,<0.8.3.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\harry\\.conda\\pkgs\\python-xxhash-3.4.1-py311ha68e1ae_0",
+  "files": [
+    "Lib/site-packages/xxhash-3.4.1.dist-info/INSTALLER",
+    "Lib/site-packages/xxhash-3.4.1.dist-info/LICENSE",
+    "Lib/site-packages/xxhash-3.4.1.dist-info/METADATA",
+    "Lib/site-packages/xxhash-3.4.1.dist-info/RECORD",
+    "Lib/site-packages/xxhash-3.4.1.dist-info/REQUESTED",
+    "Lib/site-packages/xxhash-3.4.1.dist-info/WHEEL",
+    "Lib/site-packages/xxhash-3.4.1.dist-info/direct_url.json",
+    "Lib/site-packages/xxhash-3.4.1.dist-info/top_level.txt",
+    "Lib/site-packages/xxhash/__init__.py",
+    "Lib/site-packages/xxhash/__init__.pyi",
+    "Lib/site-packages/xxhash/__pycache__/__init__.cpython-311.pyc",
+    "Lib/site-packages/xxhash/__pycache__/version.cpython-311.pyc",
+    "Lib/site-packages/xxhash/_xxhash.cp311-win_amd64.pyd",
+    "Lib/site-packages/xxhash/py.typed",
+    "Lib/site-packages/xxhash/version.py"
+  ],
+  "fn": "python-xxhash-3.4.1-py311ha68e1ae_0.conda",
+  "license": "BSD-2-Clause",
+  "link": {
+    "source": "C:\\Users\\harry\\.conda\\pkgs\\python-xxhash-3.4.1-py311ha68e1ae_0",
+    "type": 1
+  },
+  "md5": "ce7de3bb95538821322d6e35df010172",
+  "name": "python-xxhash",
+  "package_tarball_full_path": "C:\\Users\\harry\\.conda\\pkgs\\python-xxhash-3.4.1-py311ha68e1ae_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/xxhash-3.4.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/xxhash-3.4.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "f8e9ef00c78be4d2da526b2c37e4099c920c7fe0b9d943bf0daeb2efc30a3a5b",
+        "sha256_in_prefix": "f8e9ef00c78be4d2da526b2c37e4099c920c7fe0b9d943bf0daeb2efc30a3a5b",
+        "size_in_bytes": 1313
+      },
+      {
+        "_path": "Lib/site-packages/xxhash-3.4.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "cddb5d929c11dcbcb2c2849c36a927c9cbfc683c14d54873127e5bc6fa2c1243",
+        "sha256_in_prefix": "cddb5d929c11dcbcb2c2849c36a927c9cbfc683c14d54873127e5bc6fa2c1243",
+        "size_in_bytes": 12922
+      },
+      {
+        "_path": "Lib/site-packages/xxhash-3.4.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "75849a561f5e3a032d55f3789d75bca57f9b44d4d3189ad2c3d2e26b7a965465",
+        "sha256_in_prefix": "75849a561f5e3a032d55f3789d75bca57f9b44d4d3189ad2c3d2e26b7a965465",
+        "size_in_bytes": 1138
+      },
+      {
+        "_path": "Lib/site-packages/xxhash-3.4.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/xxhash-3.4.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "6da76f352fb2f5f12ad17faacdd658bea97f2458c8ed77f0fb047c16c8e82b42",
+        "sha256_in_prefix": "6da76f352fb2f5f12ad17faacdd658bea97f2458c8ed77f0fb047c16c8e82b42",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "Lib/site-packages/xxhash-3.4.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "8f305ff81e48376fa15f440848bd17aff7e7d8c7cb4fc6a34941d7826a1e3390",
+        "sha256_in_prefix": "8f305ff81e48376fa15f440848bd17aff7e7d8c7cb4fc6a34941d7826a1e3390",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "Lib/site-packages/xxhash-3.4.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "d4f3d204ffa09e31b9f44e5b8a0ccc4f3993e815568c7c27a733228ac3d66792",
+        "sha256_in_prefix": "d4f3d204ffa09e31b9f44e5b8a0ccc4f3993e815568c7c27a733228ac3d66792",
+        "size_in_bytes": 15
+      },
+      {
+        "_path": "Lib/site-packages/xxhash/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "98f11d8a1c43314d2b8cb5ae9b716b53d51ada343eaf37dec1880883e27e2657",
+        "sha256_in_prefix": "98f11d8a1c43314d2b8cb5ae9b716b53d51ada343eaf37dec1880883e27e2657",
+        "size_in_bytes": 1147
+      },
+      {
+        "_path": "Lib/site-packages/xxhash/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "4defa15068825bfe18eb9972ac608e81e42b2f7e574c533eaae9dbcf447d3221",
+        "sha256_in_prefix": "4defa15068825bfe18eb9972ac608e81e42b2f7e574c533eaae9dbcf447d3221",
+        "size_in_bytes": 1786
+      },
+      {
+        "_path": "Lib/site-packages/xxhash/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "e08d84f740d11a7c56de9b8c222e33e08a4213cc55ec7a8f8fc400a102a528ee",
+        "sha256_in_prefix": "e08d84f740d11a7c56de9b8c222e33e08a4213cc55ec7a8f8fc400a102a528ee",
+        "size_in_bytes": 1214
+      },
+      {
+        "_path": "Lib/site-packages/xxhash/__pycache__/version.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "d4dc8966c5ab8eb2759a507c2396973574ba55ab1ce07d76b56f4a2d407da45f",
+        "sha256_in_prefix": "d4dc8966c5ab8eb2759a507c2396973574ba55ab1ce07d76b56f4a2d407da45f",
+        "size_in_bytes": 201
+      },
+      {
+        "_path": "Lib/site-packages/xxhash/_xxhash.cp311-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "146242ee865deba4b5945054293939f72053d27f21f680149e677b07da40b491",
+        "sha256_in_prefix": "146242ee865deba4b5945054293939f72053d27f21f680149e677b07da40b491",
+        "size_in_bytes": 33792
+      },
+      {
+        "_path": "Lib/site-packages/xxhash/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/xxhash/version.py",
+        "path_type": "hardlink",
+        "sha256": "87b3ce97459697c0acc6d6947af467ed017be6459cb634e221676f273338c9e0",
+        "sha256_in_prefix": "87b3ce97459697c0acc6d6947af467ed017be6459cb634e221676f273338c9e0",
+        "size_in_bytes": 44
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "bde43c358c5cd08f1890a169e3eb2bf98fb6e7c778a1aa1278316f9c0ecf0940",
+  "size": 24619,
+  "subdir": "win-64",
+  "timestamp": 1696486994000,
+  "url": "https://conda.anaconda.org/conda-forge/win-64/python-xxhash-3.4.1-py311ha68e1ae_0.conda",
+  "version": "3.4.1"
+}
