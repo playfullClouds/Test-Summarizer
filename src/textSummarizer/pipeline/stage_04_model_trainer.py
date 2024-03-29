@@ -14,3 +14,5 @@ class ModelTrainerTrainingPipeline:
         model_trainer_config = config_manager.get_model_trainer_config()
         model_trainer = ModelTrainer(config=model_trainer_config)
         model_trainer.train()
+        
+        

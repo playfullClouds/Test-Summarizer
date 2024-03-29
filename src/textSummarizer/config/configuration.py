@@ -1,6 +1,7 @@
 from textSummarizer.entity import (
     DataIngestionConfig, DataValidationConfig, 
-    DataTransformationConfig, ModelTrainerConfig
+    DataTransformationConfig, ModelTrainerConfig,
+    ModelEvaluationConfig
 )
 
 from textSummarizer.constants import *
@@ -82,3 +83,15 @@ class ConfigurationManager:
         )
 
         return model_trainer_config
+    
+    
+    def get_model_evaluation_config(self) -> ModelEvaluationConfig:
+       config = self.config['model_evaluation']
+       
+       return ModelEvaluationConfig(
+            root_dir=Path(config['root_dir']),
+            data_path=Path(config['data_path']),
+            model_path=Path(config['model_path']),
+            tokenizer_path=Path(config['tokenizer_path']),
+            metric_file_name=Path(config['metric_file_name'])
+       )
