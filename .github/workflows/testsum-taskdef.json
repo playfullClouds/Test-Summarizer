@@ -1,20 +1,24 @@
 {
-    "family": "testsum-taskDef",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:056835503897:task-definition/testsum-taskDef:5",
     "containerDefinitions": [
         {
             "name": "testSum",
-            "image": "056835503897.dkr.ecr.us-east-1.amazonaws.com/testsum-app",
-            "cpu": 8192,
+            "image": "056835503897.dkr.ecr.us-east-1.amazonaws.com/testsum-app:e48efb4532e3eeebc040f74fc4736a091314d7fc",
+            "cpu": 6144,
             "memory": 18432,
             "memoryReservation": 15360,
             "portMappings": [
                 {
+                    "name": "testsum-8501-tcp",
                     "containerPort": 8501,
                     "hostPort": 8501,
                     "protocol": "tcp"
                 }
             ],
             "essential": true,
+            "environment": [],
+            "mountPoints": [],
+            "volumesFrom": [],
             "logConfiguration": {
                 "logDriver": "awslogs",
                 "options": {
@@ -22,21 +26,65 @@
                     "awslogs-group": "/ecs/testsum-taskDef",
                     "awslogs-region": "us-east-1",
                     "awslogs-stream-prefix": "ecs"
-                }
-            }
+                },
+                "secretOptions": []
+            },
+            "systemControls": []
         }
     ],
+    "family": "testsum-taskDef",
     "taskRoleArn": "arn:aws:iam::056835503897:role/testsum-ecsTaskRole",
     "executionRoleArn": "arn:aws:iam::056835503897:role/ecsTaskExecutionRole",
     "networkMode": "host",
+    "revision": 5,
+    "volumes": [],
+    "status": "ACTIVE",
+    "requiresAttributes": [
+        {
+            "name": "com.amazonaws.ecs.capability.logging-driver.awslogs"
+        },
+        {
+            "name": "ecs.capability.execution-role-awslogs"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.task-iam-role-network-host"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.ecr-auth"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.19"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.21"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.task-iam-role"
+        },
+        {
+            "name": "ecs.capability.execution-role-ecr-pull"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.18"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.29"
+        }
+    ],
+    "placementConstraints": [],
+    "compatibilities": [
+        "EC2"
+    ],
     "requiresCompatibilities": [
         "EC2"
     ],
-    "cpu": "8192",
+    "cpu": "6144",
     "memory": "32768",
     "runtimePlatform": {
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
-    }
+    },
+    "registeredAt": "2024-04-02T14:43:07.901Z",
+    "registeredBy": "arn:aws:iam::056835503897:root",
+    "tags": []
 }
-
