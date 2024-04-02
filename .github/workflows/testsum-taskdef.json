@@ -1,5 +1,5 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:056835503897:task-definition/testsum-taskDef:5",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:056835503897:task-definition/testsum-taskDef",
     "containerDefinitions": [
         {
             "name": "testSum",
@@ -36,7 +36,6 @@
     "taskRoleArn": "arn:aws:iam::056835503897:role/testsum-ecsTaskRole",
     "executionRoleArn": "arn:aws:iam::056835503897:role/ecsTaskExecutionRole",
     "networkMode": "host",
-    "revision": 5,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
