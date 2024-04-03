@@ -3,22 +3,25 @@
     "containerDefinitions": [
         {
             "name": "testSum",
-            "image": "056835503897.dkr.ecr.us-east-1.amazonaws.com/testsum-app:e48efb4532e3eeebc040f74fc4736a091314d7fc",
+            "image": "056835503897.dkr.ecr.us-east-1.amazonaws.com/testsum-app",
             "cpu": 6144,
             "memory": 18432,
-            "memoryReservation": 15360,
+            "memoryReservation": 16384,
             "portMappings": [
                 {
-                    "name": "testsum-8501-tcp",
+                    "name": "testsum-port",
                     "containerPort": 8501,
                     "hostPort": 8501,
-                    "protocol": "tcp"
+                    "protocol": "tcp",
+                    "appProtocol": "http"
                 }
             ],
             "essential": true,
             "environment": [],
+            "environmentFiles": [],
             "mountPoints": [],
             "volumesFrom": [],
+            "ulimits": [],
             "logConfiguration": {
                 "logDriver": "awslogs",
                 "options": {
@@ -83,7 +86,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2024-04-02T14:43:07.901Z",
+    "registeredAt": "2024-04-03T12:40:21.220Z",
     "registeredBy": "arn:aws:iam::056835503897:root",
     "tags": []
 }
