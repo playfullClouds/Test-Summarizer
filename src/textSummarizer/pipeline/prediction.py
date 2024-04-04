@@ -2,14 +2,21 @@ from textSummarizer.config.configuration import ConfigurationManager
 from transformers import AutoTokenizer
 from transformers import pipeline
 from pathlib import Path
+import os
 
 
 # CONFIG_FILE_PATH = Path('C:/Test-Summarizer/config/config.yaml')  
 # PARAMS_FILE_PATH = Path('C:/Test-Summarizer/params.yaml')
 
 
-CONFIG_FILE_PATH = "/app/config/config.yaml"
-PARAMS_FILE_PATH = "/app/config/params.yaml"
+# CONFIG_FILE_PATH = "/app/config/config.yaml"
+# PARAMS_FILE_PATH = "/app/config/params.yaml"
+
+
+
+# Assuming you've set environment variables for these paths
+CONFIG_FILE_PATH = Path(os.getenv('CONFIG_FILE_PATH', './config/config.yaml'))
+PARAMS_FILE_PATH = Path(os.getenv('PARAMS_FILE_PATH', './config/params.yaml'))
 
 
 
