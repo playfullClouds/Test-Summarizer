@@ -1,12 +1,12 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:056835503897:task-definition/testsum-taskDef:12",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:056835503897:task-definition/testsum-taskDef",
     "containerDefinitions": [
         {
             "name": "testSum",
             "image": "056835503897.dkr.ecr.us-east-1.amazonaws.com/testsum-app",
-            "cpu": 4096,
-            "memory": 15360,
-            "memoryReservation": 13312,
+            "cpu": 0,
+            "memory": 12288,
+            "memoryReservation": 11264,
             "portMappings": [
                 {
                     "name": "testsum-port",
@@ -45,7 +45,6 @@
     "taskRoleArn": "arn:aws:iam::056835503897:role/testsum-ecsTaskRole",
     "executionRoleArn": "arn:aws:iam::056835503897:role/ecsTaskExecutionRole",
     "networkMode": "host",
-    "revision": 12,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -93,7 +92,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2024-04-03T16:39:55.609Z",
+    "registeredAt": "2024-04-04T13:25:08.109Z",
     "registeredBy": "arn:aws:iam::056835503897:root",
     "tags": []
 }
