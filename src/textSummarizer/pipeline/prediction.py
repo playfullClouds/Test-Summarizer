@@ -4,8 +4,13 @@ from transformers import pipeline
 from pathlib import Path
 
 
-CONFIG_FILE_PATH = Path('C:/Test-Summarizer/config/config.yaml')  
-PARAMS_FILE_PATH = Path('C:/Test-Summarizer/params.yaml')
+# CONFIG_FILE_PATH = Path('C:/Test-Summarizer/config/config.yaml')  
+# PARAMS_FILE_PATH = Path('C:/Test-Summarizer/params.yaml')
+
+
+CONFIG_FILE_PATH = "/app/config/config.yaml"
+PARAMS_FILE_PATH = "/app/config/params.yaml"
+
 
 
 class PredictionPipeline:
