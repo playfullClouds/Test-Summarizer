@@ -15,11 +15,11 @@ class ModelTrainer:
     def __init__(self, config: ModelTrainerConfig):
         self.config = config
         
-        self.corrected_model_ckpt = str(config.model_ckpt).replace("\\", "/")
+        # self.corrected_model_ckpt = str(config.model_ckpt).replace("\\", "/")
 
     def train(self):
         device = "cuda" if torch.cuda.is_available() else "cpu"
-        tokenizer = AutoTokenizer.from_pretrained(self.corrected_model_ckpt)
+        tokenizer = AutoTokenizer.from_pretrained(self.config.model_ckpt)
         model_pegasus = AutoModelForSeq2SeqLM.from_pretrained(self.corrected_model_ckpt).to(device)
         seq2seq_data_collator = DataCollatorForSeq2Seq(tokenizer, model=model_pegasus)
         
