@@ -20,5 +20,6 @@ RUN pip install --upgrade accelerate
 RUN pip uninstall -y transformers accelerate
 RUN pip install transformers accelerate
 
+
 # Define the command to run the app
 CMD ["python3", "app.py"]
