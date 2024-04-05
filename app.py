@@ -29,8 +29,6 @@
 import streamlit as st
 from src.textSummarizer.pipeline.prediction import PredictionPipeline
 
-
-
 # Set page config to add a title and favicon (optional)
 st.set_page_config(page_title="Test Summarizer", page_icon="📝", layout="wide")
 
@@ -43,7 +41,6 @@ hide_menu_style = """
            </style>
            """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
-
 
 # Initialize the prediction pipeline
 prediction_pipeline = PredictionPipeline()
@@ -58,18 +55,24 @@ with col1:
     # Text input for user to enter text to summarize, with a larger area
     user_input = st.text_area("Enter Text to Summarize", height=300, placeholder="Paste your text here...")
 
-    # Button to trigger summarization
+    # Inside your Streamlit app, where you call the predict method
     if st.button('Summarize'):
-        # Check if the user has entered some text
         if user_input:
-            # Use the prediction pipeline to get the summary
+            # Dynamically set max_length based on the length of user_input
+            input_length = len(user_input.split())  # Counting words in the input
+            max_length = input_length  # Directly using input length as max_length
+            
+            # Now call predict with the dynamically determined max_length
             with st.spinner('Generating summary...'):
-                summary = prediction_pipeline.predict(user_input)
-            # Display the summary in the second column for a clear separation of input and output
+                summary = prediction_pipeline.predict(user_input, max_length=max_length)
+            
+            # Display the summary as before
             col2.subheader("Summary:")
             col2.write(summary)
         else:
             st.write("Please enter some text to summarize.")
+
+
 
 
 
