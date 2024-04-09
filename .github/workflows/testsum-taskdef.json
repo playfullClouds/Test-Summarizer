@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "test-sum",
-            "image": "056835503897.dkr.ecr.us-east-1.amazonaws.com/testsum-app",
+            "image": "056835503897.dkr.ecr.us-east-1.amazonaws.com/testsum-app:ae2541c97379c042c65dbd0590daaf7ddd113c9d",
             "cpu": 0,
             "memory": 12288,
             "memoryReservation": 11264,
@@ -92,7 +92,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2024-04-06T03:28:36.248Z",
+    "registeredAt": "2024-04-09T12:49:30.841Z",
     "registeredBy": "arn:aws:iam::056835503897:root",
     "tags": []
 }
