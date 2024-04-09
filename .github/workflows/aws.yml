@@ -36,7 +36,7 @@ env:
   ECS_SERVICE: testsum-service # set this to your Amazon ECS service name
   ECS_CLUSTER: test-sum-app # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: .github/workflows/testsum-taskdef.json # set this to the path to your Amazon ECS task definition
-  CONTAINER_NAME: testSum # containerDefinitions section of your task definition
+  CONTAINER_NAME: test-sum # containerDefinitions section of your task definition
 
 permissions:
   contents: read
