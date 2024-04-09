@@ -61,6 +61,10 @@ class ModelEvaluation:
     
     def evaluate(self):
         device = "cuda" if torch.cuda.is_available() else "cpu"
+
+         # Print the value of tokenizer_path for debugging
+        print("Tokenizer Path:", self.config.tokenizer_path)
+        
         tokenizer = AutoTokenizer.from_pretrained(self.config.tokenizer_path)
         model_pegasus = AutoModelForSeq2SeqLM.from_pretrained(self.config.model_path).to(device)
        
